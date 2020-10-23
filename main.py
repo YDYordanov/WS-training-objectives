@@ -14,7 +14,6 @@ from bcm_model import BCMModel
 
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default='bert-base-uncased',
                         help="pre-trained model name")
@@ -105,7 +104,7 @@ def main():
                         default='max',
                         help='Type of pooling to obtain sent emb:'
                              'cls/max/mean')
-    parser.add_argument('--pooling', '-pool', choices=['mean','max'],
+    parser.add_argument('--pooling', '-pool', choices=['mean', 'max'],
                         default='mean', help='Type of pooling across tokens')
 
     args = parser.parse_args()
@@ -121,7 +120,7 @@ def main():
 
     vocab_dir = 'vocab_dir'
     data_dir = args.data_dir
-    
+
     log_dir = os.path.join('saved_models', args.save_dir)
     tb_writer = SummaryWriter(logdir=log_dir)
 
@@ -134,8 +133,8 @@ def main():
     if args.grad_accum_steps < 1:
         raise ValueError("Invalid gradient_accumulation_steps "
                          "parameter: {}, should be >= 1".format(
-                          args.grad_accum_steps
-                          ))
+            args.grad_accum_steps
+        ))
     args.b_size = args.b_size // args.grad_accum_steps
 
     if 'uncased' in args.model_name:
@@ -148,22 +147,22 @@ def main():
         do_lower_case = True
 
     tokenizer = AutoTokenizer.from_pretrained(
-            args.model_name, do_lower_case=do_lower_case,
-            cache_dir=vocab_dir, use_fast=False)
+        args.model_name, do_lower_case=do_lower_case,
+        cache_dir=vocab_dir, use_fast=False)
     tokenizer.add_tokens(['[name]', '[number]'])
 
     print('Vocab size:', tokenizer.vocab_size)
 
     print('Loading data...')
     if args.css_eval:
-        wsc_data_path = 'Data/WSC/WSC_273_winogrande_css_mas.csv'
+        wsc_data_path = 'Data/WSC/WSC_modified.csv'
     else:
-        wsc_data_path = 'Data/WSC/WSC_273_winogrande.csv'
-    dpr_data_path = 'Data/WSC/DPR(WSCR)/test.csv'
+        wsc_data_path = 'Data/WSC/WSC.csv'
+    dpr_data_path = 'Data/WSC/DPR/DPR_test.csv'
 
     train_data_path = data_dir
-    dev_data_path = 'Data/WinoGrande/dev.csv'
-    test_data_path = 'Data/WinoGrande/dev.csv'
+    dev_data_path = 'Data/WinoGrande/WG-dev.csv'
+    test_data_path = 'Data/WinoGrande/WG-dev.csv'
 
     train_loader = WGLoader(
         tokenizer, args.context_len, args.b_size, train_data_path,
@@ -230,7 +229,7 @@ def main():
     optimizer = AdamW(model.parameters(), lr=args.lr)
     model.module.optimizer = optimizer
     num_training_steps = len(train_loader) * args.num_epochs / \
-        args.grad_accum_steps
+                         args.grad_accum_steps
     if args.scheduler is None:
         model.module.scheduler = None
     elif args.scheduler == 'linear':
@@ -276,47 +275,49 @@ def main():
         model.module.load_state_dict(state_dict)
 
         model.eval()
+    else:
+        model_folder = log_dir
 
         # Evaluate and save results to file
-        if args.wsc_evaluate:
-            print('Evaluating on WSC...')
-            results = model.module.evaluate(wsc_loader)
-            if len(results) > 1:
-                accuracy = results[0]
-            else:
-                accuracy = results
-            # save to file (json)
-            results_dict = {'wsc_acc': accuracy}
-            print('Results saved in:', model_dir)
-            with open('{}/WSC.json'.format(model_folder), 'w')\
-                    as fp:
-                json.dump(results_dict, fp)
-        if args.dpr_evaluate:
-            print('Evaluating on WSC...')
-            results = model.module.evaluate(dpr_loader)
-            if len(results) > 1:
-                accuracy = results[0]
-            else:
-                accuracy = results
-            # save to file (json)
-            results_dict = {'dpr_acc': accuracy}
-            print('Results saved in:', model_dir)
-            with open('{}/DPR.json'.format(model_folder), 'w') \
-                    as fp:
-                json.dump(results_dict, fp)
-        if args.wg_evaluate:
-            print('Evaluating on test set...')
-            results = model.module.evaluate(test_loader)
-            if len(results) > 1:
-                accuracy = results[0]
-            else:
-                accuracy = results
-            # save to file (json)
-            results_dict = {'test_acc': accuracy}
-            print('Results saved in:', model_dir)
-            with open('{}/WG_dev.json'.format(model_folder), 'w') \
-                    as fp:
-                json.dump(results_dict, fp)
+    if args.wsc_evaluate:
+        print('Evaluating on WSC...')
+        results = model.module.evaluate(wsc_loader)
+        if len(results) > 1:
+            accuracy = results[0]
+        else:
+            accuracy = results
+        # save to file (json)
+        results_dict = {'wsc_acc': accuracy}
+        print('Results saved in:', model_folder)
+        with open('{}/WSC.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
+    if args.dpr_evaluate:
+        print('Evaluating on WSC...')
+        results = model.module.evaluate(dpr_loader)
+        if len(results) > 1:
+            accuracy = results[0]
+        else:
+            accuracy = results
+        # save to file (json)
+        results_dict = {'dpr_acc': accuracy}
+        print('Results saved in:', model_folder)
+        with open('{}/DPR.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
+    if args.wg_evaluate:
+        print('Evaluating on test set...')
+        results = model.module.evaluate(test_loader)
+        if len(results) > 1:
+            accuracy = results[0]
+        else:
+            accuracy = results
+        # save to file (json)
+        results_dict = {'test_acc': accuracy}
+        print('Results saved in:', model_folder)
+        with open('{}/WG_dev.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
 
     if args.load_encoder_model is not None:
         model_dir = os.path.join('saved_models', args.load_encoder_model)
