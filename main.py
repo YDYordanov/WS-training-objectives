@@ -11,23 +11,27 @@ from tensorboardX import SummaryWriter
 
 from transformer_utils import WGLoader
 from bcm_model import BCMModel
+from gpu_utils import update_gpu_synch_file
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default='bert-base-uncased',
+    parser.add_argument("--model_name", type=str, default='roberta-large',
                         help="pre-trained model name")
     parser.add_argument("--train_objective", choices=['BWP', 'CSS', 'MAS'],
                         help="training objective name name")
     parser.add_argument('--lowercase', '-lower', action='store_true',
                         help='Do tokenizer lowercasing')
     parser.add_argument("--use_devices", '-gpu', type=str, default=None,
-                        help="comma-separated list of devices to run on")
+                        help="comma-separated list of GPU ids to run on")
+    parser.add_argument('--gpu_synch_file', '-gpu_synch', type=str,
+                        default='gpu_synch.txt',
+                        help="GPU synchronization script, for scheduling")
     parser.add_argument('--save_dir', type=str, default='test_run',
                         help="Directory to save the models (for resumption)")
-    parser.add_argument('--data_dir', type=str,
+    parser.add_argument('--data_path', type=str,
                         default='Data/WinoGrande/train_xl.csv',
-                        help="Directory to the training data")
+                        help="Path to the training data")
     parser.add_argument('--exper_name', type=str, default=None,
                         help="The name of the experiment which "
                              "contains this run")
@@ -119,9 +123,9 @@ def main():
     torch.backends.cudnn.deterministic = True
 
     vocab_dir = 'vocab_dir'
-    data_dir = args.data_dir
+    data_path = args.data_path
 
-    log_dir = os.path.join('saved_models', args.save_dir)
+    log_dir = args.save_dir
     tb_writer = SummaryWriter(logdir=log_dir)
 
     if args.evaluate_model is None:
@@ -133,8 +137,8 @@ def main():
     if args.grad_accum_steps < 1:
         raise ValueError("Invalid gradient_accumulation_steps "
                          "parameter: {}, should be >= 1".format(
-            args.grad_accum_steps
-        ))
+                            args.grad_accum_steps
+                         ))
     args.b_size = args.b_size // args.grad_accum_steps
 
     if 'uncased' in args.model_name:
@@ -158,11 +162,11 @@ def main():
         wsc_data_path = 'Data/WSC/WSC_modified.csv'
     else:
         wsc_data_path = 'Data/WSC/WSC.csv'
-    dpr_data_path = 'Data/WSC/DPR/DPR_test.csv'
+    dpr_data_path = 'Data/DPR/DPR_test.csv'
 
-    train_data_path = data_dir
-    dev_data_path = 'Data/WinoGrande/WG-dev.csv'
-    test_data_path = 'Data/WinoGrande/WG-dev.csv'
+    train_data_path = data_path
+    dev_data_path = 'Data/WinoGrande/dev.csv'
+    test_data_path = 'Data/WinoGrande/dev.csv'
 
     train_loader = WGLoader(
         tokenizer, args.context_len, args.b_size, train_data_path,
@@ -210,7 +214,7 @@ def main():
     config['use_mlp_head'] = args.use_mlp_head
     config['sem_sim_type'] = args.sem_sim_type
     config['log_weights'] = args.log_weights
-    print(config)
+    # print(config)
 
     model = BCMModel(config)
 
@@ -229,7 +233,7 @@ def main():
     optimizer = AdamW(model.parameters(), lr=args.lr)
     model.module.optimizer = optimizer
     num_training_steps = len(train_loader) * args.num_epochs / \
-                         args.grad_accum_steps
+        args.grad_accum_steps
     if args.scheduler is None:
         model.module.scheduler = None
     elif args.scheduler == 'linear':
@@ -278,49 +282,8 @@ def main():
     else:
         model_folder = log_dir
 
-        # Evaluate and save results to file
-    if args.wsc_evaluate:
-        print('Evaluating on WSC...')
-        results = model.module.evaluate(wsc_loader)
-        if len(results) > 1:
-            accuracy = results[0]
-        else:
-            accuracy = results
-        # save to file (json)
-        results_dict = {'wsc_acc': accuracy}
-        print('Results saved in:', model_folder)
-        with open('{}/WSC.json'.format(model_folder), 'w') \
-                as fp:
-            json.dump(results_dict, fp)
-    if args.dpr_evaluate:
-        print('Evaluating on WSC...')
-        results = model.module.evaluate(dpr_loader)
-        if len(results) > 1:
-            accuracy = results[0]
-        else:
-            accuracy = results
-        # save to file (json)
-        results_dict = {'dpr_acc': accuracy}
-        print('Results saved in:', model_folder)
-        with open('{}/DPR.json'.format(model_folder), 'w') \
-                as fp:
-            json.dump(results_dict, fp)
-    if args.wg_evaluate:
-        print('Evaluating on test set...')
-        results = model.module.evaluate(test_loader)
-        if len(results) > 1:
-            accuracy = results[0]
-        else:
-            accuracy = results
-        # save to file (json)
-        results_dict = {'test_acc': accuracy}
-        print('Results saved in:', model_folder)
-        with open('{}/WG_dev.json'.format(model_folder), 'w') \
-                as fp:
-            json.dump(results_dict, fp)
-
     if args.load_encoder_model is not None:
-        model_dir = os.path.join('saved_models', args.load_encoder_model)
+        model_dir = args.load_encoder_model
         state_dict = torch.load(model_dir, map_location=device)
         # Note: we load the parameters in non-strict fashion
         model.module.encoder.load_state_dict(state_dict, strict=False)
@@ -351,6 +314,36 @@ def main():
 
         epoch += 1
         train_start_batch = 1
+
+    # Evaluate and save results to file
+    if args.wsc_evaluate:
+        print('Evaluating on WSC...')
+        results_dict = model.module.evaluate(wsc_loader)
+        print('Results saved in:', model_folder)
+        with open('{}/WSC.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
+    if args.dpr_evaluate:
+        print('Evaluating on DPR...')
+        results_dict = model.module.evaluate(dpr_loader)
+        print('Results saved in:', model_folder)
+        with open('{}/DPR.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
+    if args.wg_evaluate:
+        print('Evaluating on WG-dev...')
+        results_dict = model.module.evaluate(test_loader)
+        print('Results saved in:', model_folder)
+        with open('{}/WG_dev.json'.format(model_folder), 'w') \
+                as fp:
+            json.dump(results_dict, fp)
+
+    # Update the GPU synchronization file
+    if args.use_devices is not None:
+        if len(args.use_devices) == 1:
+            update_gpu_synch_file(
+                args.gpu_synch_file, int(args.use_devices), is_running=False
+            )
 
 
 if __name__ == "__main__":
