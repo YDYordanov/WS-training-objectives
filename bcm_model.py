@@ -296,7 +296,15 @@ class BCMModel(TransformerModel):
               round(bwp_acc, 3),
               'Average losses mas/css/bwp:', round(av_mas_loss, 4),
               round(av_css_loss, 4), round(av_bwp_loss, 4))
-        return mas_acc, css_acc, bwp_acc, av_mas_loss, av_css_loss, av_bwp_loss
+        result_dict = {
+            'mas_acc': mas_acc,
+            'css_acc': css_acc,
+            'bwp_acc': bwp_acc,
+            'av_mas_loss': av_mas_loss,
+            'av_css_loss': av_css_loss,
+            'av_bwp_loss': av_bwp_loss,
+        }
+        return result_dict
 
     def run_epoch(self, epoch, train_loader, valid_loader, tb_writer,
                   save_dir, log_interval=200, save_interval=2000,
@@ -364,18 +372,20 @@ class BCMModel(TransformerModel):
             if (step + 1) % log_interval == 0:
                 print('Evaluation ...')
                 self.eval()
-                mas_acc, css_acc, bwp_acc, dev_mas_loss, dev_css_loss, \
-                    dev_bwp_loss = self.evaluate(valid_loader)
+                result_dict = self.evaluate(valid_loader)
                 log_step = step + len(train_loader) * (epoch - 1)
-                tb_writer.add_scalar('Accuracy(MAS)', mas_acc, log_step + 1)
-                tb_writer.add_scalar('Accuracy(CSS)', css_acc, log_step + 1)
-                tb_writer.add_scalar('Accuracy(BWP)', bwp_acc, log_step + 1)
-                tb_writer.add_scalar('Dev mas loss', dev_mas_loss,
-                                     log_step + 1)
-                tb_writer.add_scalar('Dev css loss', dev_css_loss,
-                                     log_step + 1)
-                tb_writer.add_scalar('Dev bwp loss', dev_bwp_loss,
-                                     log_step + 1)
+                tb_writer.add_scalar(
+                    'Accuracy(MAS)', result_dict['mas_acc'], log_step + 1)
+                tb_writer.add_scalar(
+                    'Accuracy(CSS)', result_dict['css_acc'], log_step + 1)
+                tb_writer.add_scalar(
+                    'Accuracy(BWP)', result_dict['bwp_acc'], log_step + 1)
+                tb_writer.add_scalar(
+                    'Dev mas loss', result_dict['av_mas_loss'], log_step + 1)
+                tb_writer.add_scalar(
+                    'Dev css loss', result_dict['av_css_loss'], log_step + 1)
+                tb_writer.add_scalar(
+                    'Dev bwp loss', result_dict['av_bwp_loss'], log_step + 1)
 
                 buffer_av_mas_loss = buffer_mas_loss / log_interval
                 tb_writer.add_scalar('Train mas loss', buffer_av_mas_loss,
@@ -395,28 +405,30 @@ class BCMModel(TransformerModel):
                 buffer_css_loss = 0
                 buffer_bwp_loss = 0
 
+                if self.train_objective == 'BWP':
+                    accuracy = result_dict['bwp_acc']
+                elif self.train_objective == 'CSS':
+                    accuracy = result_dict['css_acc']
+                else:
+                    accuracy = result_dict['mas_acc']
+
                 print('Additional evaluation...')
                 for task in self.eval_loaders.keys():
                     print(task + '...')
-                    mas_acc, css_acc, bwp_acc, _, _, _ \
-                        = self.evaluate(self.eval_loaders[task])
-                    tb_writer.add_scalar(task + 'accuracy(mas)', mas_acc,
-                                         log_step + 1)
-                    tb_writer.add_scalar(task+'accuracy(css)', css_acc,
-                                         log_step + 1)
-                    tb_writer.add_scalar(task + 'accuracy(bwp)', bwp_acc,
-                                         log_step + 1)
+                    result_dict = self.evaluate(self.eval_loaders[task])
+                    tb_writer.add_scalar(
+                        task + 'accuracy(mas)', result_dict['mas_acc'],
+                        log_step + 1)
+                    tb_writer.add_scalar(
+                        task + 'accuracy(css)', result_dict['css_acc'],
+                        log_step + 1)
+                    tb_writer.add_scalar(
+                        task + 'accuracy(bwp)', result_dict['bwp_acc'],
+                        log_step + 1)
                 if self.log_weights:
                     log_weights(self, log_step, tb_writer)
 
                 self.train()
-
-                if self.train_objective == 'BWP':
-                    accuracy = bwp_acc
-                elif self.train_objective == 'CSS':
-                    accuracy = css_acc
-                else:
-                    accuracy = mas_acc
 
             if (step + 1) % save_interval == 0:
                 print('Saving model...')
@@ -442,13 +454,7 @@ class BCMModel(TransformerModel):
                    '{}/final_model.pth'.format(save_dir))
         print('Evaluating final model...')
         self.eval()
-        mas_acc, css_acc, bwp_acc, dev_mas_loss, dev_css_loss, dev_bwp_loss \
-            = self.evaluate(valid_loader)
-        result_dict = {
-            'mas_acc': mas_acc,
-            'css_acc': css_acc,
-            'bwp_acc': bwp_acc
-        }
+        result_dict = self.evaluate(valid_loader)
         with open('{}/final_result.json'.format(save_dir), 'w') as fp:
             json.dump(result_dict, fp)
 
