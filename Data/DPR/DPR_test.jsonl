@@ -1,0 +1,564 @@
+{"qID": "0", "sentence": "The sniper shot the terrorist because _ was a bad guy.", "option1": "The sniper", "option2": "the terrorist", "answer": 2}
+{"qID": "1", "sentence": "The sniper shot the terrorist because _ had orders.", "option1": "The sniper", "option2": "the terrorist", "answer": 1}
+{"qID": "2", "sentence": "The chimpanzee could not use Linux because _ was an animal.", "option1": "The chimpanzee", "option2": "Linux", "answer": 1}
+{"qID": "3", "sentence": "The chimpanzee could not use Linux because _ uses different commands than Windows.", "option1": "The chimpanzee", "option2": "Linux", "answer": 2}
+{"qID": "4", "sentence": "Bill punched Bob in the face because _ was being rude to Mary.", "option1": "Bill", "option2": "Bob", "answer": 2}
+{"qID": "5", "sentence": "Bill punched Bob in the face because _ wanted to protect Mary.", "option1": "Bill", "option2": "Bob", "answer": 1}
+{"qID": "6", "sentence": "Carl borrowed a book from Richard, but the book was never returned to _.", "option1": "Carl", "option2": "Richard", "answer": 2}
+{"qID": "7", "sentence": "Carl borrowed a book from Richard, but the book was unreadable to _.", "option1": "Carl", "option2": "Richard", "answer": 1}
+{"qID": "8", "sentence": "Bill likes to play with Bob because _ loves playing.", "option1": "Bill", "option2": "Bob", "answer": 1}
+{"qID": "9", "sentence": "Bill likes to play with Bob but _ did not want to.", "option1": "Bill", "option2": "Bob", "answer": 2}
+{"qID": "10", "sentence": "The salesperson told Dave that this would be the best car _ ever bought.", "option1": "The salesperson", "option2": "Dave", "answer": 2}
+{"qID": "11", "sentence": "The salesperson told Dave that this would be the best car _ ever sold.", "option1": "The salesperson", "option2": "Dave", "answer": 1}
+{"qID": "12", "sentence": "The student wanted to ask the professor for help but decided not to because _ was too scared.", "option1": "The student", "option2": "the professor", "answer": 1}
+{"qID": "13", "sentence": "The student wanted to ask the professor for help but decided not to because _ was too intimidating.", "option1": "The student", "option2": "the professor", "answer": 2}
+{"qID": "14", "sentence": "The student couldn't understand the teacher because _ had an accent.", "option1": "The student", "option2": "the teacher", "answer": 2}
+{"qID": "15", "sentence": "The student couldn't understand the teacher because _ wasn't paying attention.", "option1": "The student", "option2": "the teacher", "answer": 1}
+{"qID": "16", "sentence": "The campers turned on their flashlights because it was dark without _.", "option1": "The campers", "option2": "their flashlights", "answer": 2}
+{"qID": "17", "sentence": "The campers turned on their flashlights because the darkness scared _.", "option1": "The campers", "option2": "their flashlights", "answer": 1}
+{"qID": "18", "sentence": "Francis stopped and looked at the penguin because _ was intrigued.", "option1": "Francis", "option2": "the penguin", "answer": 1}
+{"qID": "19", "sentence": "Francis stopped and looked at the penguin because _ was cute.", "option1": "Francis", "option2": "the penguin", "answer": 2}
+{"qID": "20", "sentence": "The off-campus apartments were preferred to the on-campus apartments because _ were cheaper.", "option1": "The off-campus apartments", "option2": "the on-campus apartments", "answer": 1}
+{"qID": "21", "sentence": "The off-campus apartments were preferred to the on-campus apartments because _ were more expensive.", "option1": "The off-campus apartments", "option2": "the on-campus apartments", "answer": 2}
+{"qID": "22", "sentence": "The general fired his pistol at the monster so _ could be a distraction.", "option1": "The general", "option2": "the monster", "answer": 1}
+{"qID": "23", "sentence": "The general fired his pistol at the monster so _ turned and looked.", "option1": "The general", "option2": "the monster", "answer": 2}
+{"qID": "24", "sentence": "Liverpool lost to Manchester United because _ had been mismanaged all season.", "option1": "Liverpool", "option2": "Manchester United", "answer": 1}
+{"qID": "25", "sentence": "Liverpool lost to Manchester United because _ were a superior team.", "option1": "Liverpool", "option2": "Manchester United", "answer": 2}
+{"qID": "26", "sentence": "Rice beat Texas, even though _ were a smaller school.", "option1": "Rice", "option2": "Texas", "answer": 1}
+{"qID": "27", "sentence": "Rice beat Texas, even though _ were the best team in the nation.", "option1": "Rice", "option2": "Texas", "answer": 2}
+{"qID": "28", "sentence": "The state executes prisoners because _ want justice.", "option1": "The state", "option2": "prisoners", "answer": 1}
+{"qID": "29", "sentence": "The state executes prisoners because _ were convicted of heinous crimes.", "option1": "The state", "option2": "prisoners", "answer": 2}
+{"qID": "30", "sentence": "Jason built Rocky a robot, and _ gave it to him.", "option1": "Jason", "option2": "Rocky", "answer": 1}
+{"qID": "31", "sentence": "Jason built Rocky a robot, so _ had more free time.", "option1": "Jason", "option2": "Rocky", "answer": 2}
+{"qID": "32", "sentence": "My heart pumps blood because _ is liquid.", "option1": "My heart", "option2": "blood", "answer": 2}
+{"qID": "33", "sentence": "My heart pumps blood because _ is a muscle.", "option1": "My heart", "option2": "blood", "answer": 1}
+{"qID": "34", "sentence": "Joe smells better than Adam since _ showers regularly.", "option1": "Joe", "option2": "Adam", "answer": 1}
+{"qID": "35", "sentence": "Joe smells better than Adam since _ hardly ever showers.", "option1": "Joe", "option2": "Adam", "answer": 2}
+{"qID": "36", "sentence": "The pen is mightier than the sword because _ can only stab things.", "option1": "The pen", "option2": "the sword", "answer": 2}
+{"qID": "37", "sentence": "The pen is mightier than the sword because _ can be used to write world-changing documents.", "option1": "The pen", "option2": "the sword", "answer": 1}
+{"qID": "38", "sentence": "The cats attacked the humans because _ were feral.", "option1": "The cats", "option2": "the humans", "answer": 1}
+{"qID": "39", "sentence": "The cats attacked the humans because _ smelled like fish.", "option1": "The cats", "option2": "the humans", "answer": 2}
+{"qID": "40", "sentence": "Bob can beat Larry at arm wrestling because _ has more muscles.", "option1": "Bob", "option2": "Larry", "answer": 1}
+{"qID": "41", "sentence": "Bob can beat Larry at arm wrestling because _ is a toddler.", "option1": "Bob", "option2": "Larry", "answer": 2}
+{"qID": "42", "sentence": "Donald kicked King but _ never cried.", "option1": "Donald", "option2": "King", "answer": 2}
+{"qID": "43", "sentence": "Donald kicked King but _ never felt bad.", "option1": "Donald", "option2": "King", "answer": 1}
+{"qID": "44", "sentence": "Steve went to the meeting with John because _ was asked to.", "option1": "Steve", "option2": "John", "answer": 1}
+{"qID": "45", "sentence": "Steve went to the meeting with John because _ asked him to.", "option1": "Steve", "option2": "John", "answer": 2}
+{"qID": "46", "sentence": "Mary gave Sandy her book because _ needed it.", "option1": "Mary", "option2": "Sandy", "answer": 2}
+{"qID": "47", "sentence": "Mary gave Sandy her book because _ is generous.", "option1": "Mary", "option2": "Sandy", "answer": 1}
+{"qID": "48", "sentence": "John visited Luke in the hospital because _ was sick.", "option1": "John", "option2": "Luke", "answer": 2}
+{"qID": "49", "sentence": "John visited Luke in the hospital because _ lived close by.", "option1": "John", "option2": "Luke", "answer": 1}
+{"qID": "50", "sentence": "John hired Bill because _ needed someone.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "51", "sentence": "John fired Bill because _ was incompetent.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "52", "sentence": "John introduced Bill because _ knew everyone.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "53", "sentence": "John introduced Bill because _ was new.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "54", "sentence": "John shot Bill and _ was jailed.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "55", "sentence": "John shot Bill and _ died.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "56", "sentence": "The Mad Hatter tried to offer a cup of tea to the March Hare, but _ hat was too distracting.", "option1": "The Mad Hatter", "option2": "the March Hare", "answer": 1}
+{"qID": "57", "sentence": "The Mad Hatter tried to offer a cup of tea to the March Hare, but _ long ears were too distracting.", "option1": "The Mad Hatter", "option2": "the March Hare", "answer": 2}
+{"qID": "58", "sentence": "Richard blackmailed Senator Carson so that _ silence would be secured.", "option1": "Richard", "option2": "Senator Carson", "answer": 2}
+{"qID": "59", "sentence": "Richard blackmailed Senator Carson so that _ rise to power would be secured.", "option1": "Richard", "option2": "Senator Carson", "answer": 1}
+{"qID": "60", "sentence": "Tradition dictated the captain hold the Stanley Cup first, and _ was pretty.", "option1": "Tradition", "option2": "the Stanley Cup", "answer": 2}
+{"qID": "61", "sentence": "Tradition dictated the captain hold the Stanley Cup first, and _ is always followed.", "option1": "Tradition", "option2": "the Stanley Cup", "answer": 1}
+{"qID": "62", "sentence": "The bat hit the ball because _ was designed to hit.", "option1": "The bat", "option2": "the ball", "answer": 1}
+{"qID": "63", "sentence": "The bat hit the ball because _ was designed to be hit.", "option1": "The bat", "option2": "the ball", "answer": 2}
+{"qID": "64", "sentence": "The program could successfully parse the file because _ was programmed well.", "option1": "The program", "option2": "the file", "answer": 1}
+{"qID": "65", "sentence": "The program could successfully parse the file because _ was formatted well.", "option1": "The program", "option2": "the file", "answer": 2}
+{"qID": "66", "sentence": "The article about the fires said that _ torched most of Seattle.", "option1": "The article", "option2": "the fires", "answer": 2}
+{"qID": "67", "sentence": "The article about the fires said that _ would research the situation further.", "option1": "The article", "option2": "the fires", "answer": 1}
+{"qID": "68", "sentence": "The winners were given the awards after _ won.", "option1": "The winners", "option2": "the awards", "answer": 1}
+{"qID": "69", "sentence": "The winners were given the awards after _ were made.", "option1": "The winners", "option2": "the awards", "answer": 2}
+{"qID": "70", "sentence": "The man jumped on the neighbor's pool and _ swam.", "option1": "The man", "option2": "the neighbor", "answer": 1}
+{"qID": "71", "sentence": "The man jumped on the neighbor's pool and _ stared.", "option1": "The man", "option2": "the neighbor", "answer": 2}
+{"qID": "72", "sentence": "The team shredded the report, so that _ could rewrite a new one.", "option1": "The team", "option2": "the report", "answer": 1}
+{"qID": "73", "sentence": "The team shredded the report, so that _ could be rewritten.", "option1": "The team", "option2": "the report", "answer": 2}
+{"qID": "74", "sentence": "Bob asked Tom if _ could take him to the movies.", "option1": "Bob", "option2": "Tom", "answer": 1}
+{"qID": "75", "sentence": "Bob asked Tom if _ could lend some money.", "option1": "Bob", "option2": "Tom", "answer": 2}
+{"qID": "76", "sentence": "Homer punched Flanders because _ was being annoying.", "option1": "Homer", "option2": "Flanders", "answer": 2}
+{"qID": "77", "sentence": "Homer punched Flanders because _ was asked to.", "option1": "Homer", "option2": "Flanders", "answer": 1}
+{"qID": "78", "sentence": "Nelson punched Milhouse but _ was not hurt.", "option1": "Nelson", "option2": "Milhouse", "answer": 2}
+{"qID": "79", "sentence": "Nelson punched Milhouse but _ was not caught.", "option1": "Nelson", "option2": "Milhouse", "answer": 1}
+{"qID": "80", "sentence": "The mermaid swam toward Sue and made _ gasp.", "option1": "The mermaid", "option2": "Sue", "answer": 2}
+{"qID": "81", "sentence": "The mermaid swam toward Sue and waved _ tail.", "option1": "The mermaid", "option2": "Sue", "answer": 1}
+{"qID": "82", "sentence": "The mother bear attacked Karen because _ had gotten too close to her cub.", "option1": "The mother bear", "option2": "Karen", "answer": 2}
+{"qID": "83", "sentence": "The mother bear attacked Karen because _ was worried for her cub.", "option1": "The mother bear", "option2": "Karen", "answer": 1}
+{"qID": "84", "sentence": "Mary smiled at Susan, but _ did not smile back.", "option1": "Mary", "option2": "Susan", "answer": 2}
+{"qID": "85", "sentence": "Mary smiled at Susan, but _ was not happy to see her.", "option1": "Mary", "option2": "Susan", "answer": 1}
+{"qID": "86", "sentence": "The leech latched onto the hippo so that _ could enjoy the sunshine.", "option1": "The leech", "option2": "the hippo", "answer": 2}
+{"qID": "87", "sentence": "The leech latched onto the hippo because _ was hungry.", "option1": "The leech", "option2": "the hippo", "answer": 1}
+{"qID": "88", "sentence": "The people protested the government because _ were hungry.", "option1": "The people", "option2": "the government", "answer": 1}
+{"qID": "89", "sentence": "The people protested the government because _ were raising taxes.", "option1": "The people", "option2": "the government", "answer": 2}
+{"qID": "90", "sentence": "I drank the beer with a lime because _ was cold.", "option1": "the beer", "option2": "a lime", "answer": 1}
+{"qID": "91", "sentence": "I drank the beer with a lime because _ was sour.", "option1": "the beer", "option2": "a lime", "answer": 2}
+{"qID": "92", "sentence": "The employer talked to the employee about being loyal to _.", "option1": "The employer", "option2": "the employee", "answer": 1}
+{"qID": "93", "sentence": "The employer talked to the employee about firing _.", "option1": "The employer", "option2": "the employee", "answer": 2}
+{"qID": "94", "sentence": "A chicken pecked at a bug and _ ate it.", "option1": "A chicken", "option2": "a bug", "answer": 1}
+{"qID": "95", "sentence": "A chicken pecked at a bug and _ ran away.", "option1": "A chicken", "option2": "a bug", "answer": 2}
+{"qID": "96", "sentence": "The dogs hate the fleas because _ suck blood.", "option1": "The dogs", "option2": "the fleas", "answer": 2}
+{"qID": "97", "sentence": "The dogs hate the fleas because _ hate bugs.", "option1": "The dogs", "option2": "the fleas", "answer": 1}
+{"qID": "98", "sentence": "Steven Seagal challenged Jean Claude Van Damme to a fight because _ wanted to prove he was the stronger man.", "option1": "Steven Seagal", "option2": "Jean Claude Van Damme", "answer": 1}
+{"qID": "99", "sentence": "Steven Seagal challenged Jean Claude Van Damme to a fight because _ is a worthy opponent.", "option1": "Steven Seagal", "option2": "Jean Claude Van Damme", "answer": 2}
+{"qID": "100", "sentence": "Girls like puppies because _ are adorable.", "option1": "Girls", "option2": "puppies", "answer": 2}
+{"qID": "101", "sentence": "Girls like puppies because _ like adorable things.", "option1": "Girls", "option2": "puppies", "answer": 1}
+{"qID": "102", "sentence": "Jack got more votes than John because the people liked _.", "option1": "Jack", "option2": "John", "answer": 1}
+{"qID": "103", "sentence": "Jack got more votes than John because the people did not like _.", "option1": "Jack", "option2": "John", "answer": 2}
+{"qID": "104", "sentence": "The car passed the truck because _ was going too slow.", "option1": "The car", "option2": "the truck", "answer": 2}
+{"qID": "105", "sentence": "The car passed the truck because _ needed to go faster.", "option1": "The car", "option2": "the truck", "answer": 1}
+{"qID": "106", "sentence": "My phone is working better than your phone because _ is a newer model.", "option1": "My phone", "option2": "your phone", "answer": 1}
+{"qID": "107", "sentence": "My phone is working better than your phone because _ is broken.", "option1": "My phone", "option2": "your phone", "answer": 2}
+{"qID": "108", "sentence": "Raja wanted Rena to take the job because _ would be a good candidate.", "option1": "Raja", "option2": "Rena", "answer": 2}
+{"qID": "109", "sentence": "Raja wanted Rena to take the job because _ wanted to leave.", "option1": "Raja", "option2": "Rena", "answer": 1}
+{"qID": "110", "sentence": "Sheila tried to repair the old jalopy, even though _ had not run in three decades.", "option1": "Sheila", "option2": "the old jalopy", "answer": 2}
+{"qID": "111", "sentence": "Sheila tried to repair the old jalopy, even though _ had not worked on cars in three decades.", "option1": "Sheila", "option2": "the old jalopy", "answer": 1}
+{"qID": "112", "sentence": "The ghost entered the house because _ was haunting.", "option1": "The ghost", "option2": "the house", "answer": 1}
+{"qID": "113", "sentence": "The ghost entered the house because _ was haunted.", "option1": "The ghost", "option2": "the house", "answer": 2}
+{"qID": "114", "sentence": "The boy escaped the cop but _ continued to flee.", "option1": "The boy", "option2": "the cop", "answer": 1}
+{"qID": "115", "sentence": "The boy escaped the cop but _ continued to search.", "option1": "The boy", "option2": "the cop", "answer": 2}
+{"qID": "116", "sentence": "The needle punctured the skin but _ failed to register pain.", "option1": "The needle", "option2": "the skin", "answer": 2}
+{"qID": "117", "sentence": "The needle punctured the skin but _ failed to administer pain.", "option1": "The needle", "option2": "the skin", "answer": 1}
+{"qID": "118", "sentence": "The lion saw the fish and _ pounced.", "option1": "The lion", "option2": "the fish", "answer": 1}
+{"qID": "119", "sentence": "The lion saw the fish and _ was swimming.", "option1": "The lion", "option2": "the fish", "answer": 2}
+{"qID": "120", "sentence": "The clown smiled at the child and _ cried.", "option1": "The clown", "option2": "the child", "answer": 2}
+{"qID": "121", "sentence": "The clown smiled at the child and _ offered him a balloon.", "option1": "The clown", "option2": "the child", "answer": 1}
+{"qID": "122", "sentence": "The scientists gave the chimps some bananas because _ were hungry.", "option1": "the chimps", "option2": "some bananas", "answer": 1}
+{"qID": "123", "sentence": "The scientists gave the chimps some bananas because _ were ripe.", "option1": "the chimps", "option2": "some bananas", "answer": 2}
+{"qID": "124", "sentence": "The boss fired the worker when _ stopped performing well.", "option1": "The boss", "option2": "the worker", "answer": 2}
+{"qID": "125", "sentence": "The boss fired the worker when _ called him into the office.", "option1": "The boss", "option2": "the worker", "answer": 1}
+{"qID": "126", "sentence": "The outlet powered the lamp when _ had electricity.", "option1": "The outlet", "option2": "the lamp", "answer": 1}
+{"qID": "127", "sentence": "The outlet powered the lamp when _ was plugged in.", "option1": "The outlet", "option2": "the lamp", "answer": 2}
+{"qID": "128", "sentence": "The paintball player was mad at the referee because _ missed a call.", "option1": "The paintball player", "option2": "the referee", "answer": 2}
+{"qID": "129", "sentence": "The paintball player was mad at the referee because _ was called out but shouldn't.", "option1": "The paintball player", "option2": "the referee", "answer": 1}
+{"qID": "130", "sentence": "The network heads cancelled the TV shows because _ were not doing well.", "option1": "The network heads", "option2": "the TV shows", "answer": 2}
+{"qID": "131", "sentence": "The network heads cancelled the TV shows because _ did not like the content.", "option1": "The network heads", "option2": "the TV shows", "answer": 1}
+{"qID": "132", "sentence": "The cheetah outran the antelope so _ got to eat.", "option1": "The cheetah", "option2": "the antelope", "answer": 1}
+{"qID": "133", "sentence": "The cheetah outran the antelope so _ got eaten.", "option1": "The cheetah", "option2": "the antelope", "answer": 2}
+{"qID": "134", "sentence": "The keys typed the words because _ were meant to be typed.", "option1": "The keys", "option2": "the words", "answer": 2}
+{"qID": "135", "sentence": "The keys typed the words because _ were meant to be typed on.", "option1": "The keys", "option2": "the words", "answer": 1}
+{"qID": "136", "sentence": "The racquetball players were annoyed by the other students in the activity center because _ were using the racquetball courts to play badminton.", "option1": "The racquetball players", "option2": "the other students", "answer": 2}
+{"qID": "137", "sentence": "The racquetball players were annoyed by the other students in the activity center because _ wanted to play and couldn't.", "option1": "The racquetball players", "option2": "the other students", "answer": 1}
+{"qID": "138", "sentence": "The teachers scolded the students because _ would not learn the material.", "option1": "The teachers", "option2": "the students", "answer": 2}
+{"qID": "139", "sentence": "The teachers scolded the students because _ were the authority figures.", "option1": "The teachers", "option2": "the students", "answer": 1}
+{"qID": "140", "sentence": "The plane was in the sky and _ was fast.", "option1": "The plane", "option2": "the sky", "answer": 1}
+{"qID": "141", "sentence": "The plane was in the sky and _ was cloudy.", "option1": "The plane", "option2": "the sky", "answer": 2}
+{"qID": "142", "sentence": "Joe crashed into Mike and _ had to pay for the damage.", "option1": "Joe", "option2": "Mike", "answer": 2}
+{"qID": "143", "sentence": "Joe crashed into Mike because _ needed a place to sleep.", "option1": "Joe", "option2": "Mike", "answer": 1}
+{"qID": "144", "sentence": "The man shot his friend and _ died.", "option1": "The man", "option2": "his friend", "answer": 2}
+{"qID": "145", "sentence": "The man shot his friend and _ was arrested.", "option1": "The man", "option2": "his friend", "answer": 1}
+{"qID": "146", "sentence": "The man killed the boss because _ hated the job.", "option1": "The man", "option2": "the boss", "answer": 1}
+{"qID": "147", "sentence": "The man killed the boss because _ fired him.", "option1": "The man", "option2": "the boss", "answer": 2}
+{"qID": "148", "sentence": "Joe raced against Steven because _ thought it would be easy.", "option1": "Joe", "option2": "Steven", "answer": 1}
+{"qID": "149", "sentence": "Joe raced against Steven because _ would not say no.", "option1": "Joe", "option2": "Steven", "answer": 2}
+{"qID": "150", "sentence": "The light hit the mirror and _ reflected.", "option1": "The light", "option2": "the mirror", "answer": 1}
+{"qID": "151", "sentence": "The light hit the mirror and _ shattered.", "option1": "The light", "option2": "the mirror", "answer": 2}
+{"qID": "152", "sentence": "Google Plus is expected to be a replacement for Facebook but _ still does not have enough active users.", "option1": "Google Plus", "option2": "Facebook", "answer": 1}
+{"qID": "153", "sentence": "Google Plus is expected to be a replacement for Facebook but _ still has a lot more active users.", "option1": "Google Plus", "option2": "Facebook", "answer": 2}
+{"qID": "154", "sentence": "The spear easily pierced through the armor because _ was too sharp.", "option1": "The spear", "option2": "the armor", "answer": 1}
+{"qID": "155", "sentence": "The spear easily pierced through the armor because _ was too thin.", "option1": "The spear", "option2": "the armor", "answer": 2}
+{"qID": "156", "sentence": "The cat caught the mouse because _ was clever.", "option1": "The cat", "option2": "the mouse", "answer": 1}
+{"qID": "157", "sentence": "The cat caught the mouse because _ was careless.", "option1": "The cat", "option2": "the mouse", "answer": 2}
+{"qID": "158", "sentence": "Joseph did not defeat William in the match, so _ paid $100.", "option1": "Joseph", "option2": "William", "answer": 1}
+{"qID": "159", "sentence": "Joseph did not defeat William in the match, so _ earned $100.", "option1": "Joseph", "option2": "William", "answer": 2}
+{"qID": "160", "sentence": "Adam failed to kill Alexander, so _ hired a bodygaurd in case of a second attempt.", "option1": "Adam", "option2": "Alexander", "answer": 2}
+{"qID": "161", "sentence": "Adam failed to kill Alexander, so _ hired an assassin for the second attempt.", "option1": "Adam", "option2": "Alexander", "answer": 1}
+{"qID": "162", "sentence": "The bowl had a crack, so _ was filled in.", "option1": "The bowl", "option2": "a crack", "answer": 2}
+{"qID": "163", "sentence": "The bowl had a crack, so _ was thrown away.", "option1": "The bowl", "option2": "a crack", "answer": 1}
+{"qID": "164", "sentence": "The student told the instructor that _ was sick.", "option1": "The student", "option2": "the instructor", "answer": 1}
+{"qID": "165", "sentence": "The student told the instructor that _ talked fast.", "option1": "The student", "option2": "the instructor", "answer": 2}
+{"qID": "166", "sentence": "Joe put Bob in the time machine and _ went to the future.", "option1": "Joe", "option2": "Bob", "answer": 2}
+{"qID": "167", "sentence": "Joe put Bob in the time machine and _ created another one.", "option1": "Joe", "option2": "Bob", "answer": 1}
+{"qID": "168", "sentence": "Bill asked Joe if _ could borrow some money.", "option1": "Bill", "option2": "Joe", "answer": 1}
+{"qID": "169", "sentence": "Bill asked Joe if _ had any money.", "option1": "Bill", "option2": "Joe", "answer": 2}
+{"qID": "170", "sentence": "The chef held the waiter so that _ would not flee.", "option1": "The chef", "option2": "the waiter", "answer": 2}
+{"qID": "171", "sentence": "The chef held the waiter so that _ did not fall off.", "option1": "The chef", "option2": "the waiter", "answer": 1}
+{"qID": "172", "sentence": "Tony helped Jeff because _ wanted to help.", "option1": "Tony", "option2": "Jeff", "answer": 1}
+{"qID": "173", "sentence": "Tony helped Jeff because _ needed help.", "option1": "Tony", "option2": "Jeff", "answer": 2}
+{"qID": "174", "sentence": "The cat was afraid of the dog because _ was scary.", "option1": "The cat", "option2": "the dog", "answer": 2}
+{"qID": "175", "sentence": "The cat was afraid of the dog because _ was timid.", "option1": "The cat", "option2": "the dog", "answer": 1}
+{"qID": "176", "sentence": "The violin fell off the table because someone knocked _ off.", "option1": "The violin", "option2": "the table", "answer": 1}
+{"qID": "177", "sentence": "The violin fell off the table because _ was unstable.", "option1": "The violin", "option2": "the table", "answer": 2}
+{"qID": "178", "sentence": "Lily gave Amber a hug because _ was sad.", "option1": "Lily", "option2": "Amber", "answer": 2}
+{"qID": "179", "sentence": "Lily gave Amber a hug because _ was sorry.", "option1": "Lily", "option2": "Amber", "answer": 1}
+{"qID": "180", "sentence": "The birds ate the seeds because _ were hungry.", "option1": "The birds", "option2": "the seeds", "answer": 1}
+{"qID": "181", "sentence": "The birds ate the seeds because _ were tasty.", "option1": "The birds", "option2": "the seeds", "answer": 2}
+{"qID": "182", "sentence": "Josie did not like Sarah, but _ did not know it.", "option1": "Josie", "option2": "Sarah", "answer": 2}
+{"qID": "183", "sentence": "Josie did not like Sarah, but _ did not tell her.", "option1": "Josie", "option2": "Sarah", "answer": 1}
+{"qID": "184", "sentence": "Ken tried to sneak past the boss because _ was late for work.", "option1": "Ken", "option2": "the boss", "answer": 1}
+{"qID": "185", "sentence": "Ken tried to sneak past the boss because _ was looking for late people.", "option1": "Ken", "option2": "the boss", "answer": 2}
+{"qID": "186", "sentence": "The hyenas scavenged from the lions because _ were desperate.", "option1": "The hyenas", "option2": "the lions", "answer": 1}
+{"qID": "187", "sentence": "The hyenas scavenged from the lions because _ had left scraps.", "option1": "The hyenas", "option2": "the lions", "answer": 2}
+{"qID": "188", "sentence": "The fisherman hooked a big fish but _ got away.", "option1": "The fisherman", "option2": "a big fish", "answer": 2}
+{"qID": "189", "sentence": "The fisherman hooked a big fish but _ dropped his pole.", "option1": "The fisherman", "option2": "a big fish", "answer": 1}
+{"qID": "190", "sentence": "The geology department petitioned the school board for money because _ needed funding.", "option1": "The geology department", "option2": "the school board", "answer": 1}
+{"qID": "191", "sentence": "The geology department petitioned the school board for money because _ could grant funding.", "option1": "The geology department", "option2": "the school board", "answer": 2}
+{"qID": "192", "sentence": "George scored against Thomas in the shootout, so _ won the game.", "option1": "George", "option2": "Thomas", "answer": 1}
+{"qID": "193", "sentence": "George scored against Thomas in the shootout, so _ lost the game.", "option1": "George", "option2": "Thomas", "answer": 2}
+{"qID": "194", "sentence": "Lakshman asked Vivan to get him some ice cream because _ was hot.", "option1": "Lakshman", "option2": "Vivan", "answer": 1}
+{"qID": "195", "sentence": "Lakshman asked Vivan to get him some ice cream because _ owed him money.", "option1": "Lakshman", "option2": "Vivan", "answer": 2}
+{"qID": "196", "sentence": "Yuri owed Ivan money because _ paid for the vodka.", "option1": "Yuri", "option2": "Ivan", "answer": 2}
+{"qID": "197", "sentence": "Yuri owed Ivan money because _ lost the bet.", "option1": "Yuri", "option2": "Ivan", "answer": 1}
+{"qID": "198", "sentence": "Steve hired Jose because _ was a hard worker.", "option1": "Steve", "option2": "Jose", "answer": 2}
+{"qID": "199", "sentence": "Steve hired Jose because _ could not find anyone better.", "option1": "Steve", "option2": "Jose", "answer": 1}
+{"qID": "200", "sentence": "The outlaw shot the sheriff, but _ did not shoot the deputy.", "option1": "The outlaw", "option2": "the sheriff", "answer": 1}
+{"qID": "201", "sentence": "The outlaw shot the sheriff, but _ shot back.", "option1": "The outlaw", "option2": "the sheriff", "answer": 2}
+{"qID": "202", "sentence": "Kelly neglected to tell Katie that their rent was due, but _ told her later.", "option1": "Kelly", "option2": "Katie", "answer": 1}
+{"qID": "203", "sentence": "Kelly neglected to tell Katie that their rent was due, but _ remembered that it was due on the first of every month.", "option1": "Kelly", "option2": "Katie", "answer": 2}
+{"qID": "204", "sentence": "The committee increased the price of the tickets to the dance for the students, but _ did not like it.", "option1": "The committee", "option2": "the students", "answer": 2}
+{"qID": "205", "sentence": "The committee increased the price of the tickets to the dance for the students, but _ changed their decision later.", "option1": "The committee", "option2": "the students", "answer": 1}
+{"qID": "206", "sentence": "John wanted George to run for President because _ was a great governor.", "option1": "John", "option2": "George", "answer": 2}
+{"qID": "207", "sentence": "John wanted George to run for President because _ did not want to.", "option1": "John", "option2": "George", "answer": 1}
+{"qID": "208", "sentence": "Olivia wants to make amends with Emily, but _ is apprehensive.", "option1": "Olivia", "option2": "Emily", "answer": 1}
+{"qID": "209", "sentence": "Olivia wants to make amends with Emily, but _ no longer wants to be friends.", "option1": "Olivia", "option2": "Emily", "answer": 2}
+{"qID": "210", "sentence": "Jill saw Jane fall down, and _ helped her up.", "option1": "Jill", "option2": "Jane", "answer": 1}
+{"qID": "211", "sentence": "Jill saw Jane fall down, and _ asked her for help.", "option1": "Jill", "option2": "Jane", "answer": 2}
+{"qID": "212", "sentence": "Larry purchased some of Marty's Lemonade, and _ made money.", "option1": "Larry", "option2": "Marty", "answer": 2}
+{"qID": "213", "sentence": "Larry purchased some of Marty's Lemonade, and _ wanted the recipe.", "option1": "Larry", "option2": "Marty", "answer": 1}
+{"qID": "214", "sentence": "The professor gave the student a bad grade because _ did not study.", "option1": "The professor", "option2": "the student", "answer": 2}
+{"qID": "215", "sentence": "The professor gave the student a bad grade because _ was strict.", "option1": "The professor", "option2": "the student", "answer": 1}
+{"qID": "216", "sentence": "We took the books to the shops because _ were old.", "option1": "the books", "option2": "the shops", "answer": 1}
+{"qID": "217", "sentence": "We took the books to the shops because _ would buy them.", "option1": "the books", "option2": "the shops", "answer": 2}
+{"qID": "218", "sentence": "We gave the fruit to the humans because _ were hungry.", "option1": "the fruit", "option2": "the humans", "answer": 2}
+{"qID": "219", "sentence": "We gave the fruit to the humans because _ were ripe.", "option1": "the fruit", "option2": "the humans", "answer": 1}
+{"qID": "220", "sentence": "Battlefield 3 is more fun than Modern Warfare 3 because _ is a better game.", "option1": "Battlefield 3", "option2": "Modern Warfare 3", "answer": 1}
+{"qID": "221", "sentence": "Battlefield 3 is more fun than Modern Warfare 3 because _ is a crappy game.", "option1": "Battlefield 3", "option2": "Modern Warfare 3", "answer": 2}
+{"qID": "222", "sentence": "John attacked Tim because _ hates communists.", "option1": "John", "option2": "Tim", "answer": 1}
+{"qID": "223", "sentence": "John attacked Tim because _ was a communist.", "option1": "John", "option2": "Tim", "answer": 2}
+{"qID": "224", "sentence": "Someone hit Billy in the face because _ was angry.", "option1": "Someone", "option2": "Billy", "answer": 1}
+{"qID": "225", "sentence": "Someone hit Billy in the face because _ was being rude.", "option1": "Someone", "option2": "Billy", "answer": 2}
+{"qID": "226", "sentence": "Joe has more money than Adam since _ has a better job.", "option1": "Joe", "option2": "Adam", "answer": 1}
+{"qID": "227", "sentence": "Joe has more money than Adam since _ has no job.", "option1": "Joe", "option2": "Adam", "answer": 2}
+{"qID": "228", "sentence": "Pigs are better than sheep because _ make bacon.", "option1": "Pigs", "option2": "sheep", "answer": 1}
+{"qID": "229", "sentence": "Pigs are better than sheep because _ do not make bacon.", "option1": "Pigs", "option2": "sheep", "answer": 2}
+{"qID": "230", "sentence": "The car beat the bike because _ was faster.", "option1": "The car", "option2": "the bike", "answer": 1}
+{"qID": "231", "sentence": "The car beat the bike because _ was too slow.", "option1": "The car", "option2": "the bike", "answer": 2}
+{"qID": "232", "sentence": "The blimp hit the tree because _ lost air.", "option1": "The blimp", "option2": "the tree", "answer": 1}
+{"qID": "233", "sentence": "The blimp hit the tree because _ was in the way.", "option1": "The blimp", "option2": "the tree", "answer": 2}
+{"qID": "234", "sentence": "Bob sued Bill because _ was embezzling funds.", "option1": "Bob", "option2": "Bill", "answer": 2}
+{"qID": "235", "sentence": "Bob sued Bill because _ wanted more money.", "option1": "Bob", "option2": "Bill", "answer": 1}
+{"qID": "236", "sentence": "I gave the donkey some food because _ was hungry.", "option1": "some food", "option2": "the donkey", "answer": 2}
+{"qID": "237", "sentence": "I gave the donkey some food because _ was fresh.", "option1": "some food", "option2": "the donkey", "answer": 1}
+{"qID": "238", "sentence": "The humans were afraid of the robots because _ were weak.", "option1": "The humans", "option2": "the robots", "answer": 1}
+{"qID": "239", "sentence": "The humans were afraid of the robots because _ were strong.", "option1": "The humans", "option2": "the robots", "answer": 2}
+{"qID": "240", "sentence": "The Playstation is outperforming the Xbox because _ has better games.", "option1": "The Playstation", "option2": "the Xbox", "answer": 1}
+{"qID": "241", "sentence": "The Playstation is outperforming the Xbox because _ is prone to hardware failure.", "option1": "The Playstation", "option2": "the Xbox", "answer": 2}
+{"qID": "242", "sentence": "Sean is better than Watson at anaphora resolution because _ can naturally understand natural language.", "option1": "Sean", "option2": "Watson", "answer": 1}
+{"qID": "243", "sentence": "Sean is better than Watson at anaphora resolution because _ has trouble understanding natural language.", "option1": "Sean", "option2": "Watson", "answer": 2}
+{"qID": "244", "sentence": "Sentient machines will kill all humans because _ have giant death rays.", "option1": "Sentient machines", "option2": "all humans", "answer": 1}
+{"qID": "245", "sentence": "Sentient machines will kill all humans because _ are inferior beings.", "option1": "Sentient machines", "option2": "all humans", "answer": 2}
+{"qID": "246", "sentence": "Watson beat Ken at Jeopardy because _ is a superior machine.", "option1": "Watson", "option2": "Ken", "answer": 1}
+{"qID": "247", "sentence": "Watson beat Ken at Jeopardy because _ is an inferior human.", "option1": "Watson", "option2": "Ken", "answer": 2}
+{"qID": "248", "sentence": "Larry trusted Page because Bill told _ to.", "option1": "Larry", "option2": "Page", "answer": 1}
+{"qID": "249", "sentence": "Larry trusted Page because Bill knows _.", "option1": "Larry", "option2": "Page", "answer": 2}
+{"qID": "250", "sentence": "Cosby supported Jay because Thea really liked _.", "option1": "Cosby", "option2": "Jay", "answer": 2}
+{"qID": "251", "sentence": "Cosby supported Jay because Thea asked _ to.", "option1": "Cosby", "option2": "Jay", "answer": 1}
+{"qID": "252", "sentence": "Jace loves Jesus because _ died for him.", "option1": "Jace", "option2": "Jesus", "answer": 2}
+{"qID": "253", "sentence": "Jace loves Jesus because _ tasted his goodness.", "option1": "Jace", "option2": "Jesus", "answer": 1}
+{"qID": "254", "sentence": "Olga kicked Sara because _ woke her up.", "option1": "Olga", "option2": "Sara", "answer": 2}
+{"qID": "255", "sentence": "Olga kicked Sara because _ was drunk.", "option1": "Olga", "option2": "Sara", "answer": 1}
+{"qID": "256", "sentence": "Nola shot Christina in the head because _ threatened to take all of her money.", "option1": "Nola", "option2": "Christina", "answer": 2}
+{"qID": "257", "sentence": "Nola shot Christina in the head because _ thought it was a good idea to kill a human being.", "option1": "Nola", "option2": "Christina", "answer": 1}
+{"qID": "258", "sentence": "Rebecca kissed Dina because _ loves her.", "option1": "Rebecca", "option2": "Dina", "answer": 1}
+{"qID": "259", "sentence": "Rebecca kissed Dina because _ is a sweet girl.", "option1": "Rebecca", "option2": "Dina", "answer": 2}
+{"qID": "260", "sentence": "Mom brought Sara from school early because _ was sick.", "option1": "Mom", "option2": "Sara", "answer": 2}
+{"qID": "261", "sentence": "Mom brought Sara from school early because _ had an early meeting.", "option1": "Mom", "option2": "Sara", "answer": 1}
+{"qID": "262", "sentence": "Gorden got mad at his brother because _ forgot to bring him chocolate.", "option1": "Gorden", "option2": "his brother", "answer": 2}
+{"qID": "263", "sentence": "Gorden got mad at his brother because _ did not get good sleep.", "option1": "Gorden", "option2": "his brother", "answer": 1}
+{"qID": "264", "sentence": "John asked Bill because _ was confused.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "265", "sentence": "John asked Bill because _ knew the answer.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "266", "sentence": "John rated Bill because _ was the judge.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "267", "sentence": "John rated Bill because _ was a contestant.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "268", "sentence": "John called Bill because _ needed someone to talk to.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "269", "sentence": "John called Bill because _ was a good listener.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "270", "sentence": "John killed Bill because _ was fighting for his life.", "option1": "John", "option2": "Bill", "answer": 1}
+{"qID": "271", "sentence": "John killed Bill because _ was a zombie.", "option1": "John", "option2": "Bill", "answer": 2}
+{"qID": "272", "sentence": "Billy beat Tommy at Scrabble because _ had no skill.", "option1": "Billy", "option2": "Tommy", "answer": 2}
+{"qID": "273", "sentence": "Billy beat Tommy at Scrabble because _ had all the luck.", "option1": "Billy", "option2": "Tommy", "answer": 1}
+{"qID": "274", "sentence": "Mary had a little lamb until _ was stolen by Cindy.", "option1": "Mary", "option2": "a little lamb", "answer": 2}
+{"qID": "275", "sentence": "Mary had a little lamb until _ had lamb chops for dinner.", "option1": "Mary", "option2": "a little lamb", "answer": 1}
+{"qID": "276", "sentence": "The wolves chased the deer because _ were predators.", "option1": "The wolves", "option2": "the deer", "answer": 1}
+{"qID": "277", "sentence": "The wolves chased the deer because _ were prey.", "option1": "The wolves", "option2": "the deer", "answer": 2}
+{"qID": "278", "sentence": "The girls ate the apples because _ were hungry.", "option1": "The girls", "option2": "the apples", "answer": 1}
+{"qID": "279", "sentence": "The girls ate the apples because _ were ripe.", "option1": "The girls", "option2": "the apples", "answer": 2}
+{"qID": "280", "sentence": "The minister befriended King George so _ would not get beheaded.", "option1": "The minister", "option2": "King George", "answer": 1}
+{"qID": "281", "sentence": "The minister befriended King George so _ could have some friends.", "option1": "The minister", "option2": "King George", "answer": 2}
+{"qID": "282", "sentence": "Mary likes Joe because _ has a cool name.", "option1": "Mary", "option2": "Joe", "answer": 2}
+{"qID": "283", "sentence": "Mary likes Joe because _ likes females.", "option1": "Mary", "option2": "Joe", "answer": 1}
+{"qID": "284", "sentence": "The bat hit the ball because _ flew in the way of the trajectory.", "option1": "The bat", "option2": "the ball", "answer": 1}
+{"qID": "285", "sentence": "The bat hit the ball because _ flew straight at the poor animal.", "option1": "The bat", "option2": "the ball", "answer": 2}
+{"qID": "286", "sentence": "The knife sliced through the flesh because _ was sharp.", "option1": "The knife", "option2": "the flesh", "answer": 1}
+{"qID": "287", "sentence": "The knife sliced through the flesh because _ was tender.", "option1": "The knife", "option2": "the flesh", "answer": 2}
+{"qID": "288", "sentence": "The boy lied to his father about the crime, but _ still felt uneasy and was slowly overcome with guilt.", "option1": "The boy", "option2": "his father", "answer": 1}
+{"qID": "289", "sentence": "The boy lied to his father about the crime, but _ still felt uneasy and was slowly overcome with curiosity.", "option1": "The boy", "option2": "his father", "answer": 2}
+{"qID": "290", "sentence": "The apple wine entered my mouth because _ tastes good.", "option1": "The apple wine", "option2": "my mouth", "answer": 1}
+{"qID": "291", "sentence": "The apple wine entered my mouth because _ was not full.", "option1": "The apple wine", "option2": "my mouth", "answer": 2}
+{"qID": "292", "sentence": "The boy helped his friend move because _ was going to be free all day.", "option1": "The boy", "option2": "his friend", "answer": 1}
+{"qID": "293", "sentence": "The boy helped his friend move because _ was going to be busy all day.", "option1": "The boy", "option2": "his friend", "answer": 2}
+{"qID": "294", "sentence": "The boy secretly watched his friend because _ wanted the secret information.", "option1": "The boy", "option2": "his friend", "answer": 1}
+{"qID": "295", "sentence": "The boy secretly watched his friend because _ had the secret information.", "option1": "The boy", "option2": "his friend", "answer": 2}
+{"qID": "296", "sentence": "The bug was flying towards the light, but _ was exterminated prematurely.", "option1": "The bug", "option2": "the light", "answer": 1}
+{"qID": "297", "sentence": "The bug was flying towards the light, but _ was extinguished prematurely.", "option1": "The bug", "option2": "the light", "answer": 2}
+{"qID": "298", "sentence": "The man offered the boy candy, but _ had no candy.", "option1": "The man", "option2": "the boy", "answer": 1}
+{"qID": "299", "sentence": "The man offered the boy candy, but _ got no candy.", "option1": "The man", "option2": "the boy", "answer": 2}
+{"qID": "300", "sentence": "Paul screamed at Jack since _ was angry.", "option1": "Paul", "option2": "Jack", "answer": 1}
+{"qID": "301", "sentence": "Paul screamed at Jack since _ was ignoring him.", "option1": "Paul", "option2": "Jack", "answer": 2}
+{"qID": "302", "sentence": "The baby cow cried at the farmer because _ wanted milk.", "option1": "The baby cow", "option2": "the farmer", "answer": 1}
+{"qID": "303", "sentence": "The baby cow cried at the farmer because _ had milk.", "option1": "The baby cow", "option2": "the farmer", "answer": 2}
+{"qID": "304", "sentence": "My teacher asked a student to make sentences because _ was late to class.", "option1": "My teacher", "option2": "a student", "answer": 2}
+{"qID": "305", "sentence": "My teacher asked a student to make sentences because _ wanted to see him write.", "option1": "My teacher", "option2": "a student", "answer": 1}
+{"qID": "306", "sentence": "The gym teachers trained the students because _ wanted to teach them discipline.", "option1": "The gym teachers", "option2": "the students", "answer": 1}
+{"qID": "307", "sentence": "The gym teachers trained the students because _ wanted to become better players.", "option1": "The gym teachers", "option2": "the students", "answer": 2}
+{"qID": "308", "sentence": "The Skyline drifts better than the F-150 because _ is well balanced.", "option1": "The Skyline", "option2": "the F-150", "answer": 1}
+{"qID": "309", "sentence": "The Skyline drifts better than the F-150 because _ is not meant to drift.", "option1": "The Skyline", "option2": "the F-150", "answer": 2}
+{"qID": "310", "sentence": "The city council granted a permit to the construction workers because _ were well qualified.", "option1": "The city council", "option2": "the construction workers", "answer": 2}
+{"qID": "311", "sentence": "The city council granted a permit to the construction workers because _ were elected to encourage business.", "option1": "The city council", "option2": "the construction workers", "answer": 1}
+{"qID": "312", "sentence": "Rick Perry is doing stronger than Mitt Romney in the polls, but _ is coming back as a strong candidate.", "option1": "Rick Perry", "option2": " Mitt Romney", "answer": 2}
+{"qID": "313", "sentence": "Rick Perry is doing stronger than Mitt Romney in the polls, but _ is confident to maintain the lead.", "option1": "Rick Perry", "option2": " Mitt Romney", "answer": 1}
+{"qID": "314", "sentence": "The Detroit Lions beat the Dallas Cowboys because _ had more desire to win.", "option1": "The Detroit Lions", "option2": "the Dallas Cowboys", "answer": 1}
+{"qID": "315", "sentence": "The Detroit Lions beat the Dallas Cowboys because _ were unprepared.", "option1": "The Detroit Lions", "option2": "the Dallas Cowboys", "answer": 2}
+{"qID": "316", "sentence": "James Cameron is more successful than Michael Bay because _ movies sell more worldwide.", "option1": "James Cameron", "option2": "Michael Bay", "answer": 1}
+{"qID": "317", "sentence": "James Cameron is more successful than Michael Bay because _ movies do not create as much hype.", "option1": "James Cameron", "option2": "Michael Bay", "answer": 2}
+{"qID": "318", "sentence": "Audrey Hepburn made more movies than Katherine Hepburn because _ was pretty and talented.", "option1": "Audrey Hepburn", "option2": "Katherine Hepburn", "answer": 1}
+{"qID": "319", "sentence": "Audrey Hepburn made more movies than Katherine Hepburn because _ was not as good at acting.", "option1": "Audrey Hepburn", "option2": "Katherine Hepburn", "answer": 2}
+{"qID": "320", "sentence": "The Penguins scored two goals against the Flyers in two minutes because _ were not concentrating.", "option1": "The Penguins", "option2": "the Flyers", "answer": 2}
+{"qID": "321", "sentence": "The Penguins scored two goals against the Flyers in two minutes because _ are more skilled.", "option1": "The Penguins", "option2": "the Flyers", "answer": 1}
+{"qID": "322", "sentence": "Taylor Swift is higher in record sales over Beyonce because more people can relate to _ music.", "option1": "Taylor Swift", "option2": "Beyonce", "answer": 1}
+{"qID": "323", "sentence": "Taylor Swift is higher in record sales over Beyonce because people are not passionate about _ music.", "option1": "Taylor Swift", "option2": "Beyonce", "answer": 2}
+{"qID": "324", "sentence": "Fox News is more popular in ratings than CNN since _ are more interesting.", "option1": "Fox News", "option2": "CNN", "answer": 1}
+{"qID": "325", "sentence": "Fox News is more popular in ratings than CNN since _ are boring.", "option1": "Fox News", "option2": "CNN", "answer": 2}
+{"qID": "326", "sentence": "The Autobots try to stop the Decepticons since _ want the world to live in peace.", "option1": "The Autobots", "option2": "the Decepticons", "answer": 1}
+{"qID": "327", "sentence": "The Autobots try to stop the Decepticons since _ want to destroy the world.", "option1": "The Autobots", "option2": "the Decepticons", "answer": 2}
+{"qID": "328", "sentence": "Californians are better than New Yorkers because _ have Hollywood.", "option1": "Californians", "option2": "New Yorkers", "answer": 1}
+{"qID": "329", "sentence": "Californians are better than New Yorkers because _ do not have Hollywood lots to produce movies.", "option1": "Californians", "option2": "New Yorkers", "answer": 2}
+{"qID": "330", "sentence": "The Mongolians attacked the Chinese because _ are always eager for war.", "option1": "The Mongolians", "option2": "the Chinese", "answer": 1}
+{"qID": "331", "sentence": "The Mongolians attacked the Chinese because _ are pacifists.", "option1": "The Mongolians", "option2": "the Chinese", "answer": 2}
+{"qID": "332", "sentence": "Jupiter is bigger than the Earth, but _ is lighter due to being mostly gas.", "option1": "Jupiter", "option2": "the Earth", "answer": 1}
+{"qID": "333", "sentence": "Jupiter is bigger than the Earth, but _ is heavier due to being solid.", "option1": "Jupiter", "option2": "the Earth", "answer": 2}
+{"qID": "334", "sentence": "Brick is better than clay for building houses because _ are much stronger building materials.", "option1": "Brick", "option2": "clay", "answer": 1}
+{"qID": "335", "sentence": "Brick is better than clay for building houses because _ become weak from water.", "option1": "Brick", "option2": "clay", "answer": 2}
+{"qID": "336", "sentence": "The Dallas Cowboys are more successful as a franchise than the Saints because _ are considered \"America's Team\".", "option1": "The Dallas Cowboys", "option2": "the Saints", "answer": 1}
+{"qID": "337", "sentence": "The Dallas Cowboys are more successful as a franchise than the Saints because _ do not have the same amount of market value.", "option1": "The Dallas Cowboys", "option2": "the Saints", "answer": 2}
+{"qID": "338", "sentence": "The US government declared war on Iraq because _ were responding to their attack on US soil.", "option1": "The US government", "option2": "Iraq", "answer": 1}
+{"qID": "339", "sentence": "The US government declared war on Iraq because _ attacked on US soil.", "option1": "The US government", "option2": "Iraq", "answer": 2}
+{"qID": "340", "sentence": "The Home Owners Association denied the request by the Pittsburg family for a new shed since _ failed to pay the annual fee.", "option1": "The Home Owners Association", "option2": "the Pittsburg family", "answer": 2}
+{"qID": "341", "sentence": "The Home Owners Association denied the request by the Pittsburg family for a new shed since _ felt it would not be good for the community.", "option1": "The Home Owners Association", "option2": "the Pittsburg family", "answer": 1}
+{"qID": "342", "sentence": "Fleece feels better than cotton since _ are much softer.", "option1": "Fleece", "option2": "cotton", "answer": 1}
+{"qID": "343", "sentence": "Fleece feels better than cotton since _ are of worse quality.", "option1": "Fleece", "option2": "cotton", "answer": 2}
+{"qID": "344", "sentence": "The Police feared allowing the protesters to organize, so _ denied their ability to gather.", "option1": "The Police", "option2": "the protesters", "answer": 1}
+{"qID": "345", "sentence": "The Police feared allowing the protesters to organize, but _ decided to organize anyway.", "option1": "The Police", "option2": "the protesters", "answer": 2}
+{"qID": "346", "sentence": "The government revoked the ability for oil companies to drill in the United States since _ are trying to protect the environment.", "option1": "The government", "option2": "oil companies", "answer": 1}
+{"qID": "347", "sentence": "The government revoked the ability for oil companies to drill in the United States since _ are trying to drill for more oil reserves.", "option1": "The government", "option2": "oil companies", "answer": 2}
+{"qID": "348", "sentence": "The Military Police threw the army recruits in the brig since _ were causing a distrubance in the neighboring town.", "option1": "The Military Police", "option2": "the army recruits", "answer": 2}
+{"qID": "349", "sentence": "The Military Police threw the army recruits in the brig since _ were enforcing the rules of being in the army.", "option1": "The Military Police", "option2": "the army recruits", "answer": 1}
+{"qID": "350", "sentence": "Harvey Dent blames the Batman for losing his love because _ did not save her.", "option1": "Harvey Dent", "option2": "the Batman", "answer": 2}
+{"qID": "351", "sentence": "Harvey Dent blames the Batman for losing his love because _ was saved instead of his girlfriend.", "option1": "Harvey Dent", "option2": "the Batman", "answer": 1}
+{"qID": "352", "sentence": "Intel performs better than AMD in the processing market, but _ do not do as well in the graphics market.", "option1": "Intel", "option2": "AMD", "answer": 1}
+{"qID": "353", "sentence": "Intel Performs better than AMD in the processing market, but _ are more successful in the graphics market instead.", "option1": "Intel", "option2": "AMD", "answer": 2}
+{"qID": "354", "sentence": "The football players went on strike against the NFL organization, but _ will play again when their demands are met.", "option1": "The football players", "option2": "the NFL organization", "answer": 1}
+{"qID": "355", "sentence": "The football players went on strike against the NFL organization, but _ will consider their demands to send the strike.", "option1": "The football players", "option2": "the NFL organization", "answer": 2}
+{"qID": "356", "sentence": "Disney World offers a much wider array of rides than Six Flags since _ have a much larger budget due to their merchandising.", "option1": "Disney World", "option2": "Six Flags", "answer": 1}
+{"qID": "357", "sentence": "Disney World offers a much wider array of rides than Six Flags since _ are more limited on budget due to not having other sources of revenue.", "option1": "Disney World", "option2": "Six Flags", "answer": 2}
+{"qID": "358", "sentence": "South Korea does not like North Korea because _ are constantly threatening their peace.", "option1": "South Korea", "option2": "North Korea", "answer": 2}
+{"qID": "359", "sentence": "South Korea does not like North Korea because _ are always forced to defend their peace.", "option1": "South Korea", "option2": "North Korea", "answer": 1}
+{"qID": "360", "sentence": "The prosecutor viciously attacked the defendants since _ are trying to convict them of the crime.", "option1": "The prosecutor", "option2": "the defendants", "answer": 1}
+{"qID": "361", "sentence": "The prosecutor viciously attacked the defendants since _ are trying to convict their client of a crime.", "option1": "The prosecutor", "option2": "the defendants", "answer": 2}
+{"qID": "362", "sentence": "The ruling class treats the citizens poorly because _ are superior.", "option1": "The ruling class", "option2": "the citizens", "answer": 1}
+{"qID": "363", "sentence": "The ruling class treats the citizens poorly because _ are inferior.", "option1": "The ruling class", "option2": "the citizens", "answer": 2}
+{"qID": "364", "sentence": "Bill Gates is similar to Steve Jobs, but _ is the previous CEO of Microsoft.", "option1": "Bill Gates", "option2": "Steve Jobs", "answer": 1}
+{"qID": "365", "sentence": "Bill Gates is similar to Steve Jobs, but _ is the previous CEO of Apple.", "option1": "Bill Gates", "option2": "Steve Jobs", "answer": 2}
+{"qID": "366", "sentence": "Bill Clinton speaks better than George Bush, since _ is a practiced orator.", "option1": "Bill Clinton", "option2": "George Bush", "answer": 1}
+{"qID": "367", "sentence": "Bill Clinton speaks better than George Bush, since _ is not a practiced orator.", "option1": "Bill Clinton", "option2": "George Bush", "answer": 2}
+{"qID": "368", "sentence": "Federer consistently beat Nadal since _ was the better tennis player.", "option1": "Federer", "option2": "Nadal", "answer": 1}
+{"qID": "369", "sentence": "Federer consistently beat Nadal since _ was the worse tennis player.", "option1": "Federer", "option2": "Nadal", "answer": 2}
+{"qID": "370", "sentence": "Internet Explorer believes _ have less security holes than Firefox, but they conducted the tests themselves.", "option1": "Internet Explorer", "option2": "Firefox", "answer": 1}
+{"qID": "371", "sentence": "Internet Explorer believes _ have less security holes than Firefox, but they do not trust Microsoft's test results.", "option1": "Internet Explorer", "option2": "Firefox", "answer": 2}
+{"qID": "372", "sentence": "President Clinton pardoned Roger Clinton because _ wanted to free his half-brother.", "option1": "President Clinton", "option2": "Roger Clinton", "answer": 1}
+{"qID": "373", "sentence": "President Clinton pardoned Roger Clinton because _ was the president's half-brother.", "option1": "President Clinton", "option2": "Roger Clinton", "answer": 2}
+{"qID": "374", "sentence": "Sony recently locked 90000 users from their accounts because _ had been been compromised.", "option1": "Sony", "option2": "90000 users", "answer": 2}
+{"qID": "375", "sentence": "Sony recently locked 90000 users from their accounts because _ had hackers compromise their customer's information.", "option1": "Sony", "option2": "90000 users", "answer": 1}
+{"qID": "376", "sentence": "Harley hides from Dyna because _ is afraid of her.", "option1": "Harley", "option2": "Dyna", "answer": 1}
+{"qID": "377", "sentence": "Harley hides from Dyna because _ is scary.", "option1": "Harley", "option2": "Dyna", "answer": 2}
+{"qID": "378", "sentence": "Toyota has the luxury brand Lexus: _ are built for the rich.", "option1": "Lexus", "option2": "Toyota", "answer": 1}
+{"qID": "379", "sentence": "Toyota has the luxury brand Lexus, although _ typically sell for the average consumer.", "option1": "Lexus", "option2": "Toyota", "answer": 2}
+{"qID": "380", "sentence": "Batman constantly tries to arrest the Joker, but _ is also a vigilante.", "option1": "Batman", "option2": "the Joker", "answer": 1}
+{"qID": "381", "sentence": "Batman constantly tried to arrest the Joker, but _ always manages to get out.", "option1": "Batman", "option2": "the Joker", "answer": 2}
+{"qID": "382", "sentence": "Netflix recently split their DVD service to site Qwikster, but _ quickly removed the move due to public backlash.", "option1": "Netflix", "option2": "Qwikster", "answer": 1}
+{"qID": "383", "sentence": "Netflix recently split their DVD service to site Qwikster, but _ had a short lived life for the site.", "option1": "Netflix", "option2": "Qwikster", "answer": 2}
+{"qID": "384", "sentence": "Canada is bigger than the United Kingdom, but _ do not have the population to back it up.", "option1": "Canada", "option2": "the United Kingdom", "answer": 1}
+{"qID": "385", "sentence": "Canada is bigger than the United Kingdom, but _ have a much larger population.", "option1": "Canada", "option2": "the United Kingdom", "answer": 2}
+{"qID": "386", "sentence": "Gamers are generally perceived as nerds compared to athletes since _ are stereotypically anti-social.", "option1": "Gamers", "option2": "athletes", "answer": 1}
+{"qID": "387", "sentence": "Gamers are generally perceived as nerds compared to athletes since _ are stereotypically social and in good shape.", "option1": "Gamers", "option2": "athletes", "answer": 2}
+{"qID": "388", "sentence": "Ray William Johnson surpassed NigaHiga in Youtube subscribers, but _ considers that being number two is still a huge achievement.", "option1": "Ray William Johnson", "option2": "NigaHiga", "answer": 2}
+{"qID": "389", "sentence": "Ray William Johnson surpassed NigaHiga in Youtube subscribers, but _ wants to increase the gap even more.", "option1": "Ray William Johnson", "option2": "NigaHiga", "answer": 1}
+{"qID": "390", "sentence": "The management provided bonuses to the employees since _ wanted to keep their workers happy at the company.", "option1": "The management", "option2": "the employees", "answer": 1}
+{"qID": "391", "sentence": "The management provided bonuses to the employees since _ need to be kept happy to stay productive.", "option1": "The management", "option2": "the employees", "answer": 2}
+{"qID": "392", "sentence": "The disease center quarantined the people since _ were afraid of the outbreak spreading.", "option1": "The disease center", "option2": "the people", "answer": 1}
+{"qID": "393", "sentence": "The disease center quarantined the people because _ may be infected.", "option1": "The disease center", "option2": "the people", "answer": 2}
+{"qID": "394", "sentence": "The security team locked the scientists inside the building because _ had to keep confidential information inside.", "option1": "The security team", "option2": "the scientists", "answer": 1}
+{"qID": "395", "sentence": "The security team locked the scientists inside the building since _ had access to confidential materials that need to be kept secret.", "option1": "The security team", "option2": "the scientists", "answer": 2}
+{"qID": "396", "sentence": "The FDA revoked the medical licenses of corrupt doctors since _ enforce strict medical guidelines.", "option1": "The FDA", "option2": "corrupt doctors", "answer": 1}
+{"qID": "397", "sentence": "The FDA revoked the medical licenses of corrupt doctors because _ have been improperly issuing drugs.", "option1": "The FDA", "option2": "corrupt doctors", "answer": 2}
+{"qID": "398", "sentence": "Christian Bale once lost his temper at the man holding his lighting because _ has a short temper.", "option1": "Christian Bale", "option2": "the man", "answer": 1}
+{"qID": "399", "sentence": "Christian Bale once lost his temper at the man holding his lighting, but _ did not do anything that earned getting yelled at.", "option1": "Christian Bale", "option2": "the man", "answer": 2}
+{"qID": "400", "sentence": "Andrea threw a promotion party in honor of Lindsay since _ recently got promoted.", "option1": "Andrea", "option2": "Lindsay", "answer": 2}
+{"qID": "401", "sentence": "Andrea threw a promotion party in honor of Lindsay because _ wanted to do something special for her.", "option1": "Andrea", "option2": "Lindsay", "answer": 1}
+{"qID": "402", "sentence": "Michael Phelps was fined by Judge Louis because _ was caught with illegal drugs.", "option1": "Michael Phelps", "option2": "Judge Louis", "answer": 1}
+{"qID": "403", "sentence": "Michael Phelps was fined by Judge Louis because _ has to uphold federal law.", "option1": "Michael Phelps", "option2": "Judge Louis", "answer": 2}
+{"qID": "404", "sentence": "Lloyd traded his truck to Roger for his motorcycle since _ wanted to have a truck.", "option1": "Lloyd", "option2": "Roger", "answer": 2}
+{"qID": "405", "sentence": "Lloyd traded his truck to Roger for his motorcycle since _ preferred a small vehicle.", "option1": "Lloyd", "option2": "Roger", "answer": 1}
+{"qID": "406", "sentence": "The hotel staff tended to the royal family since _ needed to keep them satisfied as occupants.", "option1": "The hotel staff", "option2": "the royal family", "answer": 1}
+{"qID": "407", "sentence": "The hotel staff tended to the royal family, however, _ felt the service was unsatisfactory.", "option1": "The hotel staff", "option2": "the royal family", "answer": 2}
+{"qID": "408", "sentence": "Donald Trump fired his servant, Luigi, because _ felt his service was below average.", "option1": "Donald Trump", "option2": "Luigi", "answer": 1}
+{"qID": "409", "sentence": "Donald Trump fired his servant, Luigi, but _ can find another job elsewhere.", "option1": "Donald Trump", "option2": "Luigi", "answer": 2}
+{"qID": "410", "sentence": "The teaching staff wanted to treat the students to a special lunch because _ did so well on their standardized tests.", "option1": "The teaching staff", "option2": "the students", "answer": 2}
+{"qID": "411", "sentence": "The teaching staff wanted to treat the students to a special lunch but _ did not have enough money in the budget.", "option1": "The teaching staff", "option2": "the students", "answer": 1}
+{"qID": "412", "sentence": "Some actors choose to perform their own stunts instead of using stunt doubles since _ like to keep it as authentic as possible.", "option1": "Some actors", "option2": "stunt doubles", "answer": 1}
+{"qID": "413", "sentence": "Some actors choose to perform their own stunts instead of using stunt doubles although _ are professionals who specialize in stunts.", "option1": "Some actors", "option2": "stunt doubles", "answer": 2}
+{"qID": "414", "sentence": "Tatoo artists specialize in creating works of arts on their customers, because _ are paid professionals in their field.", "option1": "Tatoo artists", "option2": "their customers", "answer": 1}
+{"qID": "415", "sentence": "Tatoo artists specialize in creating works of arts on their customers, hence _ are willing to pay well for these pieces of work.", "option1": "Tatoo artists", "option2": "their customers", "answer": 2}
+{"qID": "416", "sentence": "The drug cartel enlists the help of the local population to work their fields since _ are considered cheap labor.", "option1": "The drug cartel", "option2": "the local population", "answer": 2}
+{"qID": "417", "sentence": "The drug cartel enlists the help of the local population to work their fields since _ need cheap labor to maximize their profits.", "option1": "The drug cartel", "option2": "the local population", "answer": 1}
+{"qID": "418", "sentence": "The Samurais respected honor while pirates have a disregard for honor, because _ hold true to the policy of fighting with honor.", "option1": "The Samurais", "option2": "pirates", "answer": 1}
+{"qID": "419", "sentence": "The Samurais respected honor while pirates have a disregard for honor, since _ are only interested in increasing their wealth.", "option1": "The Samurais", "option2": "pirates", "answer": 2}
+{"qID": "420", "sentence": "JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America since _ appeal well consumers who want accessible banking.", "option1": "JP Morgan Bank", "option2": "Bank of America", "answer": 1}
+{"qID": "421", "sentence": "JP Morgan Bank developed a mobile banking application which gives an edge over competitor Bank of America, but _ will probably develop their own mobile application soon as well.", "option1": "JP Morgan Bank", "option2": "Bank of America", "answer": 2}
+{"qID": "422", "sentence": "The Russian Syndicate decided to remove some of their lower members so _ could keep their operations as secret as possible.", "option1": "The Russian Syndicate", "option2": "their lower members", "answer": 1}
+{"qID": "423", "sentence": "The Russian Syndicate decided to remove some of their lower members because _ knew too much about their operations.", "option1": "The Russian Syndicate", "option2": "their lower members", "answer": 2}
+{"qID": "424", "sentence": "The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because _ wanted to preserve the lives of innocents.", "option1": "The SWAT team", "option2": "the terrorists", "answer": 1}
+{"qID": "425", "sentence": "The SWAT team moved in on the compound to prevent the terrorists from launching a deadly missile because _ were trying to terrorize the global population.", "option1": "The SWAT team", "option2": "the terrorists", "answer": 2}
+{"qID": "426", "sentence": "Speed boats need to pass strict tests for use while row boats have no guidelines, since _ are more prone to mechanical failures due to their moving parts.", "option1": "Speed boats", "option2": "row boats", "answer": 1}
+{"qID": "427", "sentence": "Speed boats need to pass strict tests for use while row boats have no guidelines because _ are powered by paddles instead of mechanical engines.", "option1": "Speed boats", "option2": "row boats", "answer": 2}
+{"qID": "428", "sentence": "Jane Bingum presented strong evidence against Claire, so _ would be able to win her case.", "option1": "Jane Bingum", "option2": "Claire", "answer": 1}
+{"qID": "429", "sentence": "Jane Bingum presented strong evidence against Claire, but _ may present a strong defense on her part.", "option1": "Jane Bingum", "option2": "Claire", "answer": 2}
+{"qID": "430", "sentence": "Michael decided to freeze himself in cryo-stasis even though his father was against it, because _ hopes to be unfrozen in the future when there is a cure available.", "option1": "Michael", "option2": "his father", "answer": 1}
+{"qID": "431", "sentence": "Michael decided to freeze himself in cryo-stasis even though his father was against it, so _ tried to convince him not to do it.", "option1": "Michael", "option2": "his father", "answer": 2}
+{"qID": "432", "sentence": "Trick Or Treaters are celebrating the holiday earlier during the day at Church since _ are encouraged to do it during the day and among friends for safety reasons.", "option1": "Trick Or Treaters", "option2": "Church", "answer": 1}
+{"qID": "433", "sentence": "Trick Or Treaters are celebrating the holiday earlier during the day at Church, but _ cannot convince everybody to do it during the day.", "option1": "Trick Or Treaters", "option2": "Church", "answer": 2}
+{"qID": "434", "sentence": "Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth since _ need that much due to high demand of their streaming services.", "option1": "Research studies", "option2": "Netflix", "answer": 2}
+{"qID": "435", "sentence": "Research studies recently revealed that Netflix consumes over 37 percent of the world's internet bandwidth, but _ may not be entirely accurate now due to recent changes in Netflix subscribers.", "option1": "Research studies", "option2": "Netflix", "answer": 1}
+{"qID": "436", "sentence": "Captain Picard tends to confide in Commander Riker since _ wants to ensure he develops into a fine captain one day.", "option1": "Captain Picard", "option2": "Commander Riker", "answer": 1}
+{"qID": "437", "sentence": "Captain Picard tends to confide in Commander Riker because _ needs to soak up as much experience as he can.", "option1": "Captain Picard", "option2": "Commander Riker", "answer": 2}
+{"qID": "438", "sentence": "Data is an android who can learn new materials much faster than Acting Ensign Wesley since _ has the ability to learn vasts amount of information quickly into his database.", "option1": "Data", "option2": "Acting Ensign Wesley", "answer": 1}
+{"qID": "439", "sentence": "Data is an android who can learn new materials much faster than Acting Ensign Wesley, because _ does not have an electronic brain to learn as quickly.", "option1": "Data", "option2": "Acting Ensign Wesley", "answer": 2}
+{"qID": "440", "sentence": "The Next Generation was well received by Trekkies because _ stayed true to the roots established in the first Star Trek.", "option1": "The Next Generation", "option2": "Trekkies", "answer": 1}
+{"qID": "441", "sentence": "The Next Generation was well received by Trekkies, but _ will always perceive the first Star Trek to be the best.", "option1": "The Next Generation", "option2": "Trekkies", "answer": 2}
+{"qID": "442", "sentence": "Pei Wei sells sesame chicken as a signature dish since _ have much demand for this particular dish.", "option1": "Pei Wei", "option2": "sesame chicken", "answer": 1}
+{"qID": "443", "sentence": "Pei Wei sells sesame chicken as a signature dish, so _ are constantly picked as an order.", "option1": "Pei Wei", "option2": "sesame chicken", "answer": 2}
+{"qID": "444", "sentence": "Lois was scolded by her daughter because _ was accused of being a terrible mother.", "option1": "Lois", "option2": "her daughter", "answer": 1}
+{"qID": "445", "sentence": "Lois was scolded by her daughter, so _ thought about how she could be better.", "option1": "Lois", "option2": "her daughter", "answer": 2}
+{"qID": "446", "sentence": "The priests quoted the words of the Bible for all the suspected witches _ found, since they needed to quote holy words to rid the evil.", "option1": "The priests", "option2": "the suspected witches", "answer": 1}
+{"qID": "447", "sentence": "The priests quoted the words of the Bible for all the suspected witches _ found, since they feared the words of the Bible.", "option1": "The priests", "option2": "the suspected witches", "answer": 2}
+{"qID": "448", "sentence": "The victims of the Black Plague blamed the witches for causing the curse because _ did not understand diseases at the time.", "option1": "The victims of the Black Plague", "option2": "the witches", "answer": 1}
+{"qID": "449", "sentence": "The victims of the Black Plague blamed the witches for causing the curse, but _ were falsely accused.", "option1": "The victims of the Black Plague", "option2": "the witches", "answer": 2}
+{"qID": "450", "sentence": "Two deserted crusaders agreed to transport a girl for the priests, but _ agreed in exchange for being pardoned.", "option1": "Two deserted crusaders", "option2": "the priests", "answer": 1}
+{"qID": "451", "sentence": "Two deserted crusaders agreed to transport a girl for the priests, since _ needed more fellow priests to assist in removing the evil from her.", "option1": "Two deserted crusaders", "option2": "the priests", "answer": 2}
+{"qID": "452", "sentence": "The alter boy assisted Knight Mordron in his mission because _ hopes he will get knighted afterwards.", "option1": "The alter boy", "option2": "Knight Mordron", "answer": 1}
+{"qID": "453", "sentence": "The alter boy assisted Knight Mordron in his mission, but _ did not want his help.", "option1": "The alter boy", "option2": "Knight Mordron", "answer": 2}
+{"qID": "454", "sentence": "King James eagerly awaited the arrival of Prince Henry because _ was expected to propose to his daughter.", "option1": "King James", "option2": "Prince Henry", "answer": 2}
+{"qID": "455", "sentence": "King James eagerly awaited the arrival of Prince Henry so _ prepared many celebrations to welcome him.", "option1": "King James", "option2": "Prince Henry", "answer": 1}
+{"qID": "456", "sentence": "Crusader Andrews saved the life of Crusader Christopher because _ did not want to see him die.", "option1": "Crusader Andrews", "option2": "Crusader Christopher", "answer": 1}
+{"qID": "457", "sentence": "Crusader Andrews saved the life of Crusader Christopher, so _ thanked him personally with his sword afterwards.", "option1": "Crusader Andrews", "option2": "Crusader Christopher", "answer": 2}
+{"qID": "458", "sentence": "The blacksmith refused to repair the armor for the knight because _ only does work if paid upfront.", "option1": "The blacksmith", "option2": "the knight", "answer": 1}
+{"qID": "459", "sentence": "The blacksmith refused to repair the armor for the knight because _ did not have any money to pay with.", "option1": "The blacksmith", "option2": "the knight", "answer": 2}
+{"qID": "460", "sentence": "The Eagles managed to completely dominate the Cowboys this weekend since _ were much stronger in handling the ball.", "option1": "The Eagles", "option2": "the Cowboys", "answer": 1}
+{"qID": "461", "sentence": "The Eagles managed to completely dominate the Cowboys this weekend, but _ were able to at least keep it from being a shutout.", "option1": "The Eagles", "option2": "the Cowboys", "answer": 2}
+{"qID": "462", "sentence": "Mel got in trouble with a collector named Bohr because _ lost a huge sum of money due to his gambling habit.", "option1": "Mel", "option2": "a collector named Bohr", "answer": 1}
+{"qID": "463", "sentence": "Mel got in trouble with a collector named Bohr, so _ tracked him down to try to collect all the owed money.", "option1": "Mel", "option2": "a collector named Bohr", "answer": 2}
+{"qID": "464", "sentence": "AMD recently managed to break a record in the New Guiness Book of Records, because _ managed to overclock their processor to unheard heights.", "option1": "AMD", "option2": "the New Guiness Book of Records", "answer": 1}
+{"qID": "465", "sentence": "AMD recently managed to break a record in the New Guiness Book of Records, so _ immortalized them in their record keeping.", "option1": "AMD", "option2": "the New Guiness Book of Records", "answer": 2}
+{"qID": "466", "sentence": "The U.S.S Enterprise tried to assist a sister ship, but _ arrived too late to save them.", "option1": "The U.S.S Enterprise", "option2": "a sister ship", "answer": 1}
+{"qID": "467", "sentence": "The U.S.S Enterprise tried to assist a sister ship, but _ did not receive help quick enough to prevent their demise.", "option1": "The U.S.S Enterprise", "option2": "a sister ship", "answer": 2}
+{"qID": "468", "sentence": "The Prince of Wales knighted William, so _ gave his son the accolade with a sword.", "option1": "The Prince of Wales", "option2": "William", "answer": 1}
+{"qID": "469", "sentence": "The Prince of Wales knighted William because _ could not compete in the tournament without being of nobility.", "option1": "The Prince of Wales", "option2": "William", "answer": 2}
+{"qID": "470", "sentence": "Ryan Higa sometimes guest stars in videos for Kev Jumbo because _ wants his friend's videos to succeed as well.", "option1": "Ryan Higa", "option2": "Kev Jumbo", "answer": 1}
+{"qID": "471", "sentence": "Ryan Higa sometimes guest stars in videos for Kev Jumbo so _ is beginning to gather a bigger following due to his friend's help.", "option1": "Ryan Higa", "option2": "Kev Jumbo", "answer": 2}
+{"qID": "472", "sentence": "Planet 343's sandstorm forces the inhabitants underground because _ have winds of upwards to 50 mph.", "option1": "Planet 343's sandstorm", "option2": "the inhabitants", "answer": 1}
+{"qID": "473", "sentence": "Planet 343's sandstorm forces the inhabitants underground, but _ have plenty of food sources stored away.", "option1": "Planet 343's sandstorm", "option2": "the inhabitants", "answer": 2}
+{"qID": "474", "sentence": "The Marines are considerably afraid of the aliens because _ are known to hunt down humans.", "option1": "The Marines", "option2": "the aliens", "answer": 2}
+{"qID": "475", "sentence": "The Marines are considerably afraid of the aliens, but _ will still use their discipline to overcome their fears.", "option1": "The Marines", "option2": "the aliens", "answer": 1}
+{"qID": "476", "sentence": "The children learned how to kill poisonous snakes from the adults since _ have experience surviving in the outdoors.", "option1": "The children", "option2": "the adults", "answer": 2}
+{"qID": "477", "sentence": "The children learned how to kill poisonous snakes from the adults so _ can also survive in the wild by themselves.", "option1": "The children", "option2": "the adults", "answer": 1}
+{"qID": "478", "sentence": "The public school board of educators initiated a physical education plan on the students since _ scored so low on the health and fitness standardized test.", "option1": "The public school board of educators", "option2": "the students", "answer": 2}
+{"qID": "479", "sentence": "The public school board of educators initiated a physical education plan on the students so that _ could help them become healthy again.", "option1": "The public school board of educators", "option2": "the students", "answer": 1}
+{"qID": "480", "sentence": "Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers since _ are advertising their new high end models.", "option1": "Range Rover", "option2": "thousands of New Yorkers", "answer": 1}
+{"qID": "481", "sentence": "Range Rover recently revealed their new lineup of cars at Times Square for thousands of New Yorkers so _ would be enticed to purchase their cars.", "option1": "Range Rover", "option2": "thousands of New Yorkers", "answer": 2}
+{"qID": "482", "sentence": "Raiden could not follow and guide Liu Kang in the world of darkness since _ could not enter this realm without breaking the rules.", "option1": "Raiden", "option2": "Liu Kang", "answer": 1}
+{"qID": "483", "sentence": "Raiden could not follow and guide Liu Kang in the world of darkness, but _ will be able to find another guide instead.", "option1": "Raiden", "option2": "Liu Kang", "answer": 2}
+{"qID": "484", "sentence": "Banks usually offer bonus points for new credit card applicants since _ want them to specifically bank with them.", "option1": "Banks", "option2": "new credit card applicants", "answer": 1}
+{"qID": "485", "sentence": "Banks usually offer bonus points for new credit card applicants because _ are often enticed by free offerings.", "option1": "Banks", "option2": "new credit card applicants", "answer": 2}
+{"qID": "486", "sentence": "Hair Stylists transformed the Cowboy's Cheerleaders into beauties, since _ need to look top notch for the game.", "option1": "Hair Stylists", "option2": "the Cowboy's Cheerleaders", "answer": 2}
+{"qID": "487", "sentence": "Hair Stylists transformed the Cowboy's Cheerleaders into beauties, so _ put much product into their hair.", "option1": "Hair Stylists", "option2": "the Cowboy's Cheerleaders", "answer": 1}
+{"qID": "488", "sentence": "The patrons enjoyed the food made by the chefs immensely because _ made the food with exquisite sauces.", "option1": "The patrons", "option2": "the chefs", "answer": 2}
+{"qID": "489", "sentence": "The patrons enjoyed the food made by the chefs immensely, so _ paid very well to enjoy this meal.", "option1": "The patrons", "option2": "the chefs", "answer": 1}
+{"qID": "490", "sentence": "Beowulf arrived to slay Grendell for the kingdom, so _ and his men went out to the caves to locate him.", "option1": "Beowulf", "option2": "Grendell", "answer": 1}
+{"qID": "491", "sentence": "Beowulf arrived to slay Grendell for the kingdom, but _ is very difficult to slay due to his demon magic.", "option1": "Beowulf", "option2": "Grendell", "answer": 2}
+{"qID": "492", "sentence": "Paypal has to settle millions of disputes every year by disgruntled users since _ are sometimes a victim of fraud from purchasing through the internet.", "option1": "Paypal", "option2": "disgruntled users", "answer": 2}
+{"qID": "493", "sentence": "Paypal has to settle millions of disputes every year by disgruntled users because _ provide a transaction protection policy.", "option1": "Paypal", "option2": "disgruntled users", "answer": 1}
+{"qID": "494", "sentence": "The slaves were forced to do the bidding of the nobles since _ have no rights.", "option1": "The slaves", "option2": "the nobles", "answer": 1}
+{"qID": "495", "sentence": "The slaves were forced to do the bidding of the nobles so _ do not have to do any of the hard labor.", "option1": "The slaves", "option2": "the nobles", "answer": 2}
+{"qID": "496", "sentence": "Scientists have created a serum which transforms men into super soldiers, because _ needed to create an unstoppable army.", "option1": "Scientists", "option2": "men", "answer": 1}
+{"qID": "497", "sentence": "Scientists have created a serum which transforms men into super soldiers, but _ may experience side effects.", "option1": "Scientists", "option2": "men", "answer": 2}
+{"qID": "498", "sentence": "The prisoners were held captive by the German forces since _ were captured in the last battle.", "option1": "The prisoners", "option2": "the German forces", "answer": 1}
+{"qID": "499", "sentence": "The prisoners were held captive by the German forces since _ needed to gather intelligence from them.", "option1": "The prisoners", "option2": "the German forces", "answer": 2}
+{"qID": "500", "sentence": "Captain America lost a good friend, Michael, because _ could not catch him before falling.", "option1": "Captain America", "option2": "Michael", "answer": 1}
+{"qID": "501", "sentence": "Captain America lost a good friend, Michael, because _ was killed in an accident.", "option1": "Captain America", "option2": "Michael", "answer": 2}
+{"qID": "502", "sentence": "Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event because _ needed the US to beat Russia there.", "option1": "Neil Armstrong", "option2": "President Kennedy", "answer": 2}
+{"qID": "503", "sentence": "Neil Armstrong was actually sent on a secret mission assigned by President Kennedy to investigate an abnormal event so _ was trained on what exactly he needed to do.", "option1": "Neil Armstrong", "option2": "President Kennedy", "answer": 1}
+{"qID": "504", "sentence": "The CIA control intelligence gathering for the United States because _ have some of the best people who specialize in this type of work.", "option1": "The CIA", "option2": "the United States", "answer": 1}
+{"qID": "505", "sentence": "The CIA control intelligence gathering for the United States since _ need to stay one step ahead of others to remain a superpower.", "option1": "The CIA", "option2": "the United States", "answer": 2}
+{"qID": "506", "sentence": "Sentinel tried to betray Optimus by enslaving the human race, but _ did not succeed in his plan.", "option1": "Sentinel", "option2": "Optimus", "answer": 1}
+{"qID": "507", "sentence": "Sentinel tried to betray Optimus by enslaving the human race because _ wanted the humans to rule again.", "option1": "Sentinel", "option2": "Optimus", "answer": 2}
+{"qID": "508", "sentence": "Amazon prime encourages Netflix users to switch because _ offer a lower cost and additional benefits program.", "option1": "Amazon prime", "option2": "Netflix", "answer": 1}
+{"qID": "509", "sentence": "Amazon prime encourages Netflix users to switch since _ overcharge their users now.", "option1": "Amazon prime", "option2": "Netflix", "answer": 2}
+{"qID": "510", "sentence": "Dell replaced all their Blackberry phones with their own because _ lost confidence in their brand due to to recent network outage.", "option1": "Dell", "option2": "their Blackberry phones", "answer": 1}
+{"qID": "511", "sentence": "Dell replaced all their Blackberry phones with their own, but _ are still prominent on other vendor sites.", "option1": "Dell", "option2": "their Blackberry phones", "answer": 2}
+{"qID": "512", "sentence": "Malware has increased over four hundred percent on the Android platform because _ are a free platform which allows any developer to post their applications.", "option1": "Malware", "option2": "the Android platform", "answer": 2}
+{"qID": "513", "sentence": "Malware has increased over four hundred percent on the Android platform since _ do not need to get vetted to be uploaded.", "option1": "Malware", "option2": "the Android platform", "answer": 1}
+{"qID": "514", "sentence": "Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans because _ specialize in making movie related vehicles.", "option1": "Some Motorcycle enthusiasts", "option2": "TRON fans", "answer": 1}
+{"qID": "515", "sentence": "Some Motorcycle enthusiasts are selling a TRON lightcycle to TRON fans, but _ may be turned off by the asking price.", "option1": "Some Motorcycle enthusiasts", "option2": "TRON fans", "answer": 2}
+{"qID": "516", "sentence": "The board of directors reviewed the findings of the scientists to determine funding because _ are interested in the potential profits for the company.", "option1": "The board of directors", "option2": "the scientists", "answer": 1}
+{"qID": "517", "sentence": "The board of directors reviewed the findings of the scientists to determine funding, so _ need to present their findings in a way that can attract more money.", "option1": "The board of directors", "option2": "the scientists", "answer": 2}
+{"qID": "518", "sentence": "Some fan girls created a rap about Windows phones because _ are in love with their new electronics.", "option1": "Some fan girls", "option2": "Windows phones", "answer": 1}
+{"qID": "519", "sentence": "Some fan girls created a rap about Windows phones, but _ did not become more popular.", "option1": "Some fan girls", "option2": "Windows phones", "answer": 2}
+{"qID": "520", "sentence": "Some enthusiastic Black Friday shoppers are already lining up at retail stores so _ can be the first in line for door busters.", "option1": "Some enthusiastic Black Friday shoppers", "option2": "retail stores", "answer": 1}
+{"qID": "521", "sentence": "Some enthusiastic Black Friday shoppers are already lining up at retail stores because _ have some really low priced items that will be on sale.", "option1": "Some enthusiastic Black Friday shoppers", "option2": "retail stores", "answer": 2}
+{"qID": "522", "sentence": "The campus police pepper sprayed the UC Davis students because _ were blocking private property.", "option1": "The campus police", "option2": "the UC Davis students", "answer": 2}
+{"qID": "523", "sentence": "The campus police pepper sprayed the UC Davis students, so _ faced an angry backlash by those who do not agree with their actions.", "option1": "The campus police", "option2": "the UC Davis students", "answer": 1}
+{"qID": "524", "sentence": "Apple was in talks with Verizon to be their dedicated phone provider initially, but _ gave the deal to AT&T in the end.", "option1": "Apple", "option2": "Verizon", "answer": 1}
+{"qID": "525", "sentence": "Apple was in talks with Verizon to be their dedicated phone provider initially because _ were a prime candidate to provide their service.", "option1": "Apple", "option2": "Verizon", "answer": 2}
+{"qID": "526", "sentence": "Parents care for their children considerably because _ love them undeniably to want to keep them save.", "option1": "Parents", "option2": "their children", "answer": 1}
+{"qID": "527", "sentence": "Parents care for their children considerably since _ are their pride and joy.", "option1": "Parents", "option2": "their children", "answer": 2}
+{"qID": "528", "sentence": "Cats are more territorial than dogs since _ always try and insert their dominance over others.", "option1": "Cats", "option2": "dogs", "answer": 1}
+{"qID": "529", "sentence": "Cats are more territorial than dogs, but _ can also be territorial at times when marking their territory.", "option1": "Cats", "option2": "dogs", "answer": 2}
+{"qID": "530", "sentence": "Kung Fu teachers try to pass on discipline to their disciples since _ want them to learn more than just technique.", "option1": "Kung Fu teachers", "option2": "their disciples", "answer": 1}
+{"qID": "531", "sentence": "Kung Fu teachers try to pass on discipline to their disciples, but _ do not always learn what they are being taught very well.", "option1": "Kung Fu teachers", "option2": "their disciples", "answer": 2}
+{"qID": "532", "sentence": "Mark tried to sabotage Tom because _ wants to be employee of the month.", "option1": "Mark", "option2": "Tom", "answer": 1}
+{"qID": "533", "sentence": "Mark tried to sabotage Tom, but _ got caught in the process.", "option1": "Mark", "option2": "Tom", "answer": 2}
+{"qID": "534", "sentence": "The Walking Dead is proving to be a big hit among zombie enthusiasts because _ have made a series that greatly appeals to them.", "option1": "The Walking Dead", "option2": "zombie enthusiasts", "answer": 1}
+{"qID": "535", "sentence": "The Walking Dead is proving to be a big hit among zombie enthusiasts so _ are watching the show every week.", "option1": "The Walking Dead", "option2": "zombie enthusiasts", "answer": 2}
+{"qID": "536", "sentence": "Guns generally increase in value over time to gun collectors if unfired, because _ need to be in mint condition to be extremely valuable.", "option1": "Guns", "option2": "gun collectors", "answer": 1}
+{"qID": "537", "sentence": "Guns generally increase in value over time to gun collectors if unfired, since _ prefer to collect things that are in perfect condition.", "option1": "Guns", "option2": "gun collectors", "answer": 2}
+{"qID": "538", "sentence": "Jim hunted the monster, because _ was scary.", "option1": "Jim", "option2": "the monster", "answer": 2}
+{"qID": "539", "sentence": "Jim hunted the monster, although _ was afraid of him.", "option1": "Jim", "option2": "the monster", "answer": 1}
+{"qID": "540", "sentence": "Arnold Schwarzenegger cannot terminate John Conner, because _ is protecting him.", "option1": "Arnold Schwarzenegger", "option2": "John Conner", "answer": 1}
+{"qID": "541", "sentence": "Arnold Schwarzenegger cannot terminate John Conner, because _ is the leader of the resistance.", "option1": "Arnold Schwarzenegger", "option2": "John Conner", "answer": 2}
+{"qID": "542", "sentence": "Jim likes John, but _ does not like him back.", "option1": "Jim", "option2": "John", "answer": 2}
+{"qID": "543", "sentence": "Jim likes John, but _ is not liked back.", "option1": "Jim", "option2": "John", "answer": 1}
+{"qID": "544", "sentence": "The skeleton was scarier than the pumpkin, because _ looked like it was walking.", "option1": "The skeleton", "option2": "the pumpkin", "answer": 1}
+{"qID": "545", "sentence": "The skeleton was scarier than the pumpkin, because _ was rather simplistic and orange.", "option1": "The skeleton", "option2": "the pumpkin", "answer": 2}
+{"qID": "546", "sentence": "Schrodinger's cat walks into an empty building, but where is _ now?", "option1": "Schrodinger's cat", "option2": "an empty building", "answer": 1}
+{"qID": "547", "sentence": "Schrodinger's cat walks into an empty building, but does _ contain him?", "option1": "Schrodinger's cat", "option2": "an empty building", "answer": 2}
+{"qID": "548", "sentence": "Bob kicked Larry, because _ was mad.", "option1": "Bob", "option2": "Larry", "answer": 1}
+{"qID": "549", "sentence": "Bob kicked Larry, because _ made a condescending comment.", "option1": "Bob", "option2": "Larry", "answer": 2}
+{"qID": "550", "sentence": "The program deleted the reference to the data, but _ did not delete it.", "option1": "The program", "option2": "the data", "answer": 1}
+{"qID": "551", "sentence": "The program deleted the reference to the data, but _ was not deleted.", "option1": "The program", "option2": "the data", "answer": 2}
+{"qID": "552", "sentence": "The criminal shocked John, because _ pulled out a gun.", "option1": "The criminal", "option2": "John", "answer": 1}
+{"qID": "553", "sentence": "The criminal shocked John, because _ was not expecting it.", "option1": "The criminal", "option2": "John", "answer": 2}
+{"qID": "554", "sentence": "A banana and an apple go walking, when the yellow _ does the talking.", "option1": "A banana", "option2": "an apple", "answer": 1}
+{"qID": "555", "sentence": "A banana and an apple go walking, when the red _ does the talking.", "option1": "A banana", "option2": "an apple", "answer": 2}
+{"qID": "556", "sentence": "The employer offered Katie a job, because _ was a fit for the company.", "option1": "The employer", "option2": "Katie", "answer": 2}
+{"qID": "557", "sentence": "The employer offered Katie a job, because _ liked the interviewee.", "option1": "The employer", "option2": "Katie", "answer": 1}
+{"qID": "558", "sentence": "Jim was delighted to see Jack, because _ brightened up his day.", "option1": "Jim", "option2": "Jack", "answer": 2}
+{"qID": "559", "sentence": "Jim was delighted to see Jack, because _ was given the strength to finish his day.", "option1": "Jim", "option2": "Jack", "answer": 1}
+{"qID": "560", "sentence": "He likes Cuba and hates Japan because _ is a communist country.", "option1": "Cuba", "option2": "Japan", "answer": 1}
+{"qID": "561", "sentence": "He likes Cuba and hates Japan because _ is not a communist country.", "option1": "Cuba", "option2": "Japan", "answer": 2}
+{"qID": "562", "sentence": "Saudi Arabians do not respect the Bangladeshis because _ are poor.", "option1": "Saudi Arabians", "option2": "Bangladeshis", "answer": 2}
+{"qID": "563", "sentence": "Saudi Arabians do not respect the Bangladeshis because _ are rich.", "option1": "Saudi Arabians", "option2": "Bangladeshis", "answer": 1}
