@@ -1,5 +1,8 @@
 # coding=utf-8
 
+# Copyright 2020 Yordan Yordanov
+# This code was modified by Yordan Yordanov. All modifications are licensed under Apache 2.0 as is the original code. See below for the original license:
+
 # Copyright 2019 Allen Institute for Artificial Intelligence 
 # This code was copied from (https://github.com/huggingface/transformers/blob/master/examples/run_glue.py)
 # and amended by AI2. All modifications are licensed under Apache 2.0 as is the original code. See below for the original license:
@@ -28,8 +31,10 @@ import glob
 import json
 import logging
 import os
+import csv
 import random
 import math
+from pathlib import Path
 
 import numpy as np
 import torch
@@ -70,6 +75,26 @@ MODEL_CLASSES = {
     'roberta': (RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer),
     'roberta_mc': (RobertaConfig, RobertaForMultipleChoice, RobertaTokenizer),
 }
+
+
+def update_gpu_synch_file(gpu_id, is_running=False):
+    gpu_synch_file = '/data/woma/yordan/gpu_synch.csv'
+
+    # Read the status
+    status = []
+    with open(gpu_synch_file, 'r', newline='') as csvfile:
+        reader = csv.reader(csvfile, delimiter=' ')
+        for row in reader:
+            status.append(row)
+
+    # Update the status
+    status[gpu_id] = [1 if is_running else 0]
+
+    # Write the status
+    with open(gpu_synch_file, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=' ')
+        for value in status:
+            writer.writerow(value)
 
 
 def set_seed(args):
@@ -191,9 +216,9 @@ def train(args, train_dataset, model, tokenizer):
                     if not os.path.exists(output_dir):
                         os.makedirs(output_dir)
                     model_to_save = model.module if hasattr(model, 'module') else model  # Take care of distributed/parallel training
-                    model_to_save.save_pretrained(output_dir)
-                    torch.save(args, os.path.join(output_dir, 'training_args.bin'))
-                    logger.info("Saving model checkpoint to %s", output_dir)
+                    # model_to_save.save_pretrained(output_dir)
+                    # torch.save(args, os.path.join(output_dir, 'training_args.bin'))
+                    # logger.info("Saving model checkpoint to %s", output_dir)
 
             if args.max_steps > 0 and global_step > args.max_steps:
                 epoch_iterator.close()
@@ -201,6 +226,10 @@ def train(args, train_dataset, model, tokenizer):
         if args.max_steps > 0 and global_step > args.max_steps:
             train_iterator.close()
             break
+            
+    # Log final results
+    results = evaluate(args, model, tokenizer, processor, eval_split="dev")
+        
 
     if args.local_rank in [-1, 0]:
         tb_writer.close()
@@ -208,7 +237,7 @@ def train(args, train_dataset, model, tokenizer):
     return global_step, tr_loss / global_step
 
 
-def evaluate(args, model, tokenizer, processor, prefix="", eval_split=None):
+def evaluate(args, model, tokenizer, processor, prefix="", eval_split=None, get_final_results=False):
 
     eval_task_names = (args.task_name,)
     eval_outputs_dirs = (args.output_dir,)
@@ -294,6 +323,11 @@ def evaluate(args, model, tokenizer, processor, prefix="", eval_split=None):
 
         if os.path.exists(args.output_dir):
             with open(os.path.join(args.output_dir, "metrics.json"), "w") as f:
+                f.write(json.dumps(results))
+            f.close()
+            
+        if os.path.exists(args.output_dir) and get_final_results:
+            with open(os.path.join(args.output_dir, "final_results.json"), "w") as f:
                 f.write(json.dumps(results))
             f.close()
 
@@ -473,10 +507,22 @@ def main():
                         help="For distributed training: local_rank")
     parser.add_argument('--server_ip', type=str, default='', help="For distant debugging.")
     parser.add_argument('--server_port', type=str, default='', help="For distant debugging.")
+    parser.add_argument('--use_devices', type=str, default=None, help="Select the GPU(s) to use")
+    parser.add_argument('--exper_name', type=str, default=None,
+                        help="The name of the experiment which "
+                             "contains this run")
     args = parser.parse_args()
+    
+    if args.use_devices:
+        os.environ['CUDA_VISIBLE_DEVICES'] = args.use_devices
+        print("Using gpus:", args.use_devices)
 
-    if os.path.exists(args.output_dir) and os.listdir(args.output_dir) and args.do_train and not args.overwrite_output_dir:
-        raise ValueError("Output directory ({}) already exists and is not empty. Use --overwrite_output_dir to overcome.".format(args.output_dir))
+    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+    
+    config_file = os.path.join(args.output_dir, 'config.txt')
+    if int(args.num_train_epochs) > 0:
+        with open(config_file, 'w') as f:
+            json.dump(args.__dict__, f, indent=2)
 
     # Setup distant debugging if needed
     if args.server_ip and args.server_port:
@@ -545,6 +591,9 @@ def main():
         result = dict((k, v) for k, v in result.items())
         results.update(result)
         logger.info("***** Experiment finished *****")
+        # Update the GPU synch file
+        if len(args.use_devices) == 1:
+            update_gpu_synch_file(int(args.use_devices), is_running=False)
         return results
 
     # Training
@@ -603,6 +652,10 @@ def main():
         results.update(result)
 
     logger.info("***** Experiment finished *****")
+    # Update the GPU synch file
+    if len(args.use_devices) == 1:
+        update_gpu_synch_file(int(args.use_devices), is_running=False)
+        
     return results
 
 
