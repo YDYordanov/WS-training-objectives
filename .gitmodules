@@ -1,3 +1,0 @@
-[submodule "winogrande"]
-	path = winogrande
-	url = https://github.com/allenai/winogrande.git
