@@ -11,6 +11,7 @@ parser = argparse.ArgumentParser(description="Transformers model")
 parser.add_argument("--total_num_gpus", '-num_gpus', type=int, default=1,
                     help='Total number of GPUs in the system')
 parser.add_argument("--ignore_gpu_ids", '-ignore_gpus', default=[], nargs='+',
+                    type=int,
                     help='The interval-separated list of ids of the GPUs '
                          'in the system not to be used for running '
                          '(to be ignored by this script).')
